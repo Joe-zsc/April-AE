@@ -1,0 +1,8 @@
+/NLP_Module/__pycache__
+/NLP_Module/Embedding_models/**
+!/NLP_Module/Embedding_models/readme.md
+/RL_Model/__pycache__
+/actions/__pycache__
+/runs
+/log/**
+!/log/readme.md

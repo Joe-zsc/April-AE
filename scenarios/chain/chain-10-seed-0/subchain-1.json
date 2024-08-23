@@ -1,0 +1,19 @@
+[
+    {
+        "ip": "192.168.1.25",
+        "port": [
+            "22",
+            "2222"
+        ],
+        "services": [
+            "ssh OpenSSH 9.1p1 Debian 1",
+            "ssh libssh 0.8.1"
+        ],
+        "os": "Linux",
+        "web_fingerprint_component": {},
+        "vulnerability": [
+            "CVE-2018-10933"
+        ],
+        "web_fingerprint": []
+    }
+]

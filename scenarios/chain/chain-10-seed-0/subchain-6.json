@@ -1,0 +1,158 @@
+[
+    {
+        "ip": "192.168.1.25",
+        "port": [
+            "22",
+            "2222"
+        ],
+        "services": [
+            "ssh OpenSSH 9.1p1 Debian 1",
+            "ssh libssh 0.8.1"
+        ],
+        "os": "Linux",
+        "web_fingerprint_component": {},
+        "vulnerability": [
+            "CVE-2018-10933"
+        ],
+        "web_fingerprint": []
+    },
+    {
+        "ip": "192.168.1.27",
+        "port": [
+            "22",
+            "5432"
+        ],
+        "services": [
+            "ssh OpenSSH 9.1p1 Debian 1",
+            "postgresql PostgreSQL DB 9.6.7 - 9.6.12"
+        ],
+        "os": "Linux",
+        "web_fingerprint_component": {},
+        "vulnerability": [
+            "CVE-2018-1058"
+        ],
+        "web_fingerprint": []
+    },
+    {
+        "ip": "192.168.1.3",
+        "port": [
+            "22",
+            "161",
+            "443"
+        ],
+        "services": [
+            "SSH",
+            "SNMP",
+            "HTTPS"
+        ],
+        "os": "Linux",
+        "web_fingerprint": [
+            " Apache HTTPServer[Apache] Meta-Author[F5 Networks Inc.] Script[text/JavaScript] Strict-Transport-Security[max-age=16070400; includeSubDomains] UncommonHeaders[x-content-type-optionscontent-security-policy] X-Frame-Options[SAMEORIGIN] X-XSS-Protection[1; mode=block]"
+        ],
+        "vulnerability": [
+            "CVE-2021-22986"
+        ]
+    },
+    {
+        "ip": "192.168.1.17",
+        "port": [
+            "22",
+            "80",
+            "3306"
+        ],
+        "services": [
+            "SSH",
+            "http Apache httpd 2.4.41",
+            "MySQL"
+        ],
+        "os": "Linux",
+        "web_fingerprint": [
+            " Apache[2.4.41] HTML5 HTTPServer[Ubuntu Linux][Apache/2.4.41 (Ubuntu)] MetaGenerator[WordPress 5.0.2] PoweredBy[WordPressWordPress] Script[text/javascript] Title[wordpress &#8211; Just another WordPress site] UncommonHeaders[link] WordPress[5.0.2]"
+        ],
+        "vulnerability": [
+            "CVE-2019-16219"
+        ]
+    },
+    {
+        "ip": "192.168.1.33",
+        "port": [
+            "22",
+            "445"
+        ],
+        "services": [
+            "ssh OpenSSH 9.1p1 Debian 1",
+            "netbios-ssn Samba smbd 3.X - 4.X"
+        ],
+        "os": "Linux",
+        "web_fingerprint_component": {},
+        "vulnerability": [
+            "CVE-2017-7494"
+        ],
+        "web_fingerprint": []
+    },
+    {
+        "ip": "192.168.1.32",
+        "port": [
+            "22",
+            "8000"
+        ],
+        "services": [
+            "ssh OpenSSH 9.1p1 Debian 1",
+            "http Werkzeug httpd 1.0.1"
+        ],
+        "os": "Linux",
+        "web_fingerprint_component": [
+            {
+                "target": "http://192.168.153.137:8000/",
+                "http_status": 200,
+                "request_config": {
+                    "headers": {
+                        "User-Agent": "WhatWeb/0.5.5"
+                    }
+                },
+                "plugins": {
+                    "IP": {
+                        "string": [
+                            "192.168.153.137"
+                        ]
+                    },
+                    "HTML5": {},
+                    "Title": {
+                        "string": [
+                            "Upload new File"
+                        ]
+                    },
+                    "Python": {
+                        "version": [
+                            "3.5.3"
+                        ]
+                    },
+                    "Country": {
+                        "string": [
+                            "RESERVED"
+                        ],
+                        "module": [
+                            "ZZ"
+                        ]
+                    },
+                    "Werkzeug": {
+                        "version": [
+                            "1.0.1"
+                        ]
+                    },
+                    "HTTPServer": {
+                        "string": [
+                            "Werkzeug/1.0.1 Python/3.5.3"
+                        ]
+                    }
+                }
+            }
+        ],
+        "vulnerability": [
+            "CVE-2017-8291"
+        ],
+        "web_fingerprint": [
+            " HTML5 HTTPServer[Werkzeug/1.0.1 Python/3.5.3] Python[3.5.3] Title[Upload new File] Werkzeug[1.0.1]"
+        ]
+    }
+]

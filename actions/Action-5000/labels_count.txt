@@ -1,0 +1,2664 @@
+Android	235
+Windows	135
+Chrome	114
+Jenkins and its plugins	82
+MySQL Server	58
+macOS	47
+Adobe Acrobat and Reader	46
+iOS	39
+Firefox	38
+Junos OS	34
+HarmonyOS	34
+BIG-IP	33
+iOS and iPadOS	25
+Microsoft Edge	23
+Samsung Mobile Devices	22
+Cisco Small Business RV Series Router Firmware 	21
+Acrobat Reader	21
+Android for MSM, Firefox OS for MSM, QRD Android	19
+VM VirtualBox	17
+Thunderbird	17
+GitLab	16
+All Qualcomm products	16
+Foxit Reader	15
+kernel	14
+Windows Server	14
+Snapdragon Mobile, Snapdragon Wear	14
+WebLogic Server	13
+Microsoft Office	13
+Cisco SD-WAN Solution 	12
+Windows 7	12
+Snapdragon Mobile	11
+HPE Intelligent Management Center (IMC) PLAT	11
+Windows 10 Version 2004 for 32-bit Systems	11
+Reader	11
+tensorflow	11
+View	10
+Intelligent Management Center (iMC) PLAT	10
+Outside In Technology	10
+Cisco IOS XE Software 	10
+Solaris Operating System	10
+Cybozu Garoon	10
+WebSphere Application Server	9
+DiskStation Manager (DSM)	9
+Cisco Adaptive Security Appliance (ASA) Software 	9
+Microsoft SharePoint Enterprise Server	8
+PeopleSoft Enterprise PT PeopleTools	8
+Java	8
+JT2Go	8
+Microsoft Windows	8
+EMUI	8
+Rational Collaborative Lifecycle Management	8
+SAP 3D Visual Enterprise Viewer	8
+Aruba ClearPass Policy Manager	8
+Snapdragon Automobile, Snapdragon Mobile, Snapdragon Wear	8
+MicroStation CONNECT	8
+DB2 for Linux, UNIX and Windows	7
+Trend Micro Apex One	7
+Marketing	7
+Experience Manager	7
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables	7
+Intel(R) Processors	7
+vim/vim	7
+Kernel	7
+Cisco Firepower Threat Defense Software 	7
+Magento 2	7
+Cisco Data Center Network Manager 	7
+Drupal	6
+Brocade Fabric OS	6
+Maximo Asset Management	6
+Internet Explorer 11	6
+Cisco Identity Services Engine Software 	6
+QEMU	6
+microweber/microweber	6
+Sterling B2B Integrator	6
+Internet Explorer 9	6
+Bridge	6
+Fortinet FortiOS	6
+Joomla!	6
+MySQL Cluster	6
+Windows Server 2016	6
+Adobe ColdFusion	6
+discourse	6
+Microsoft SharePoint Foundation	6
+Kubernetes	6
+QRadar SIEM	6
+PowerScale OneFS	6
+PostgreSQL	5
+Samba	5
+Apache HTTP Server	5
+Cisco IOS XR Software 	5
+libcgal	5
+Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables	5
+moodle	5
+OpenHarmony	5
+UltraVNC	5
+BI Publisher (formerly XML Publisher)	5
+SC9863A/SC9832E/SC7731E/T610/T310/T606/T760/T610/T618/T606/T612/T616/T760/T770/T820/S8000	5
+Blender	5
+tvOS	5
+PDF Reader	5
+QTS	5
+NVIDIA GPU Display Driver	5
+xstream	5
+security-advisories	5
+Jira	5
+PhantomPDF	5
+One-to-One Fulfillment	5
+Jira Server	5
+FLEXCUBE Universal Banking	5
+Windows Uniscribe	5
+Lantronix	5
+Adobe Experience Manager	5
+FreeRDP	5
+FreeBSD	5
+Confluence Server	4
+Apache Struts	4
+Microsoft SharePoint	4
+Cisco Webex Meetings 	4
+InDesign	4
+Moxa	4
+PAN-OS	4
+Advanced Outbound Telephony	4
+Spectrum Scale	4
+Windows Server 2022	4
+OpenSSL	4
+Azure Sphere	4
+AIX	4
+radareorg/radare2	4
+Spectrum Protect	4
+InfoSphere Information Server	4
+Oracle VM VirtualBox	4
+livehelperchat/livehelperchat	4
+Enterprise Manager Base Platform	4
+FLEXCUBE Investor Servicing	4
+GPU Display Driver	4
+All Qualcomm Products	4
+ovirt-engine	4
+Cisco Firepower Management Center 	4
+BIND 9	4
+ChakraCore	4
+FFmpeg	4
+glpi	4
+Firefox ESR	4
+Robotic Process Automation	4
+Hospitality Simphony	4
+Magento Commerce	4
+watchOS	4
+After Effects	4
+Content Navigator	4
+Security Secret Server	4
+API Connect	4
+Spectrum Protect Plus	4
+SmartThings Hub STH-ETH-250	4
+Cisco Wireless LAN Controller (WLC) 	4
+Adobe Acrobat and Reader 2018.011.20038 and earlier, 2017.011.30079 and earlier, and 2015.006.30417 and earlier versions	4
+Octopus Server	4
+HPE Intelligent Management Center (iMC)	4
+Security Guardium	4
+Apache CouchDB	3
+Apache OFBiz	3
+Apache Tomcat	3
+PHP	3
+Ruby on Rails	3
+libssh	3
+JBoss	3
+ghostscript	3
+shescape	3
+Spring Framework	3
+Magento	3
+Arigato Autoresponder and Newsletter	3
+R1510	3
+Windows kernel	3
+FusionSphere OpenStack	3
+Apache Hadoop	3
+zephyr	3
+netpbm	3
+Advanced Threat Defense (ATD)	3
+Adobe Photoshop CC	3
+Windows 10 Servers	3
+Junos Space	3
+SAP NetWeaver Enterprise Portal	3
+Adobe Flash Player 24.0.0.194 and earlier.	3
+Trend Micro Email Encryption Gateway	3
+CMS	3
+GoCart	3
+Studio Photo	3
+Fortinet FortiSandbox	3
+openemr/openemr	3
+HUAWEI P30	3
+Apache Airflow	3
+Ansible	3
+Kibana	3
+AT&T	3
+xorg-x11-server	3
+https://github.com/nodejs/node	3
+Wyse Management Suite	3
+Advantech WebAccess	3
+EVlink City (EVC1S22P4 / EVC1S7P4 all versions prior to R8 V3.4.0.1), EVlink Parking (EVW2 / EVF2 / EV.2 all versions prior to R8 V3.4.0.1), and EVlink Smart Wallbox (EVB1A all versions prior to R8 V3.4.0.1 )	3
+Samsung Mobile Devices 	3
+nokogiri	3
+https://github.com/curl/curl	3
+CentOS Web Panel	3
+Eclipse Mosquitto	3
+Cognos Analytics	3
+Security Identity Governance and Intelligence	3
+GitLab CE/EE	3
+BIOS	3
+Cloud Foundry	3
+Splunk Enterprise	3
+Cisco NX-OS unknown	3
+MT6873, MT6875, MT6877, MT6883, MT6885, MT6889, MT6891, MT6893, MT8195, MT8791, MT8797	3
+Modicon M580 Modicon M340 Modicon Quantum Modicon Premium	3
+Easergy T300 (Firmware version 1.5.2 and older)	3
+Clustered Data ONTAP	3
+Security Identity Manager	3
+Windows 10 Version 1803 for 32-bit Systems	3
+Advantech	3
+usememos/memos	3
+Microsoft SharePoint Server	3
+Cscape	3
+Hospitality Reporting and Analytics	3
+Planning Analytics	3
+NetGain Systems Enterprise Manager	3
+WAGO PFC200	3
+Elasticsearch	3
+Apache NiFi	3
+SPPA-T3000 MS3000 Migration Server	3
+Cisco NX-OS Software 	3
+2019.2 IPU – Intel(R) Graphics Driver for Windows* and Linux	3
+Google Chrome prior to 62.0.3202.62	3
+Adobe Acrobat Reader 11.0.19 and earlier, 15.006.30280 and earlier, 15.023.20070 and earlier.	3
+Illustrator	3
+Apache Traffic Server	3
+ImageCast X application	3
+star7th/showdoc	3
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wired Infrastructure and Networking	3
+Database - Enterprise Edition	3
+Security Update - Catalina	3
+xwiki-platform	3
+vapor	3
+QUARTZ-GOLD	3
+Windows 10 Version 20H2 for x64-based Systems	3
+LinkHub Mesh Wifi	3
+ImageMagick	3
+Netcore Router	3
+ClamAV	3
+Cisco IOS	3
+MQ	3
+SOOIL Developments Co., Ltd Diabecare RS, AnyDana-i and AnyDana-A	3
+Adobe Media Encoder	3
+Messaging Gateway	3
+InCopy	3
+Azure Site Recovery VMWare to Azure	3
+InRouter302	3
+Jazz for Service Management	3
+NetIQ Access Manager	3
+Sun ZFS Storage Appliance Kit (AK) Software	3
+Moodle	3
+OS4Ed	3
+Security QRadar SIEM	3
+LibreOffice	3
+Spectrum Copy Data Management	3
+ImageGear	3
+Extensible Firmware Interface Development Kit (EDK II)	3
+Adobe Acrobat and Reader 2018.011.20040 and earlier, 2017.011.30080 and earlier, and 2015.006.30418 and earlier versions	3
+EMUI;Magic UI	3
+VMware ESXi	3
+Prelude	3
+Cisco IOS 	3
+SPPA-T3000 Application Server	3
+Junos OS Evolved	3
+Windows 10 Version 1909 for 32-bit Systems	3
+Visual Studio Code	3
+Java SE	3
+Cisco Web Security Appliance (WSA) 	3
+Cisco IOS and IOS XE	3
+Animate	3
+Adobe Acrobat Reader 2017.012.20098 and earlier versions, 2017.011.30066 and earlier versions, 2015.006.30355 and earlier versions, 11.0.22 and earlier versions	3
+Rational Quality Manager	3
+Spring Security	3
+Cloud Orchestrator	3
+BigFix Platform	3
+Nextcloud Server	3
+redis	2
+Apache Druid	2
+Apache Log4j	2
+WordPress	2
+WebCenter Portal	2
+Apache Solr	2
+undertow	2
+EcoStruxure Operator Terminal Expert	2
+Resilient SOAR	2
+Cisco Cloud Services Platform 2100  	2
+Snapdragon Auto	2
+Integrated Dell Remote Access Controller (iDRAC)	2
+Cisco Application Policy Infrastructure Controller (APIC) 	2
+NPort IAW5000A-I/O	2
+Foscam C1 Indoor HD Camera	2
+AMD Radeon Software 	2
+SAP Financial Consolidation	2
+RabbitMQ	2
+ArcGIS Enterprise	2
+Apache SpamAssassin	2
+Videolabs	2
+NVIDIA GeForce NOW Application	2
+Intel(R) E810 Ethernet Controllers	2
+Cisco Digital Network Architecture Center (DNA Center) 	2
+Snapdragon Compute, Snapdragon Industrial IOT, Snapdragon Mobile	2
+FortiOS	2
+WebAccess/SCADA	2
+AWK-3131A Series Industrial IEEE 802.11a/b/g/n wireless AP/bridge/client	2
+Cisco UCS Director 	2
+Cisco Unified Contact Center Express 	2
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking	2
+grafana	2
+Microsoft Edge (Chromium-based)	2
+UAA Release (OSS)	2
+Samsung Members	2
+Siebel Core - Server Framework	2
+Simcenter Femap V2020.2	2
+JT Utilities	2
+Proficy Machine Edition	2
+ONTAP Select Deploy administration utility	2
+Application Management Pack for Oracle E-Business Suite	2
+pdns-recursor	2
+Financial Services Asset Liability Management	2
+U.Motion	2
+Fortinet FortiWeb	2
+Adobe Illustrator	2
+Cisco Wireless LAN Controller	2
+CA Automic Automation	2
+Microsoft Dynamics 365 (on-premises) version 9.0	2
+Node.js	2
+Cisco AnyConnect Secure Mobility Client 	2
+Rocket.chat	2
+Connect	2
+Simple Ajax Chat (WordPress plugin)	2
+Opto 22 SoftPAC Project	2
+shopware	2
+ikus060/rdiffweb	2
+Audio Station	2
+OTRS	2
+Royal Elementor Addons (Elementor Templates, Post Grid, Mega Menu & Header Footer Builder, WooCommerce Builder, Product Grid, Slider, Parallax Image & other Free Elementor Widgets)	2
+Cisco Adaptive Security Appliance	2
+libtiff	2
+Cisco Application Services Engine Software 	2
+Application Object Library	2
+i	2
+MatrixSSL	2
+Fortinet FortiManager	2
+PeopleSoft Enterprise PRTL Interaction Hub	2
+Premiere	2
+Cloud Pak for Security	2
+Adobe Acrobat and Reader 2017.012.20098 and earlier versions, 2017.011.30066 and earlier versions, 2015.006.30355 and earlier versions, 11.0.22 and earlier versions	2
+Edge	2
+pyload/pyload	2
+Tower	2
+PDF-XChange Editor	2
+Insteon	2
+iOS, macOS, tvOS, watchOS	2
+Cisco Email Security Appliance (ESA)	2
+Windows 10 Version 21H1 for x64-based Systems	2
+Intelligent Operations Center	2
+QNAP Media Streaming Add-On	2
+CPG BIOS	2
+Apache Hive	2
+Apache Shiro	2
+Applications Framework	2
+Cisco WebEx Meetings Server 	2
+Jazz Reporting Service	2
+XMP Toolkit	2
+iOS, tvOS, watchOS, Safari,  iTunes for Windows, iCloud for Windows	2
+Intel(R) Active Management Technology	2
+Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables	2
+NAVER Whale browser	2
+Windows Server 2012 R2	2
+october	2
+Brava! Desktop	2
+Security Guardium Data Encryption	2
+foreman	2
+immudb	2
+grub2	2
+Security Guardium Insights	2
+CloudEngine 12800	2
+Cisco IOS, IOS XE, and IOS XR	2
+Dart SDK	2
+Autodesk Design Review	2
+Cisco IOS XE	2
+Malware Protection Engine	2
+Samsung Mobile Devices with Exynos chipsets	2
+VMware vCenter Server, VMware Cloud Foundation	2
+glusterfs	2
+SUSE Linux Enterprise Server 12	2
+WL-Enq	2
+upx	2
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wired Infrastructure and Networking	2
+UC Browser	2
+Trendnet AC2600 TEW-827DRU	2
+Cisco Aironet Access Point Software 	2
+Generator	2
+Cisco Prime Infrastructure 	2
+e-Alert Unit (non-medical device)	2
+cfme	2
+baserCMS	2
+git	2
+libxml2	2
+Intel(R) Graphics Drivers Advisory	2
+wire-server	2
+QES	2
+Robotic Process Automation with Automation Anywhere	2
+libwebp	2
+Hyperion Essbase Administration Services	2
+Apache Ambari	2
+Shadowsocks	2
+Eclipse OMR	2
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile	2
+binutils	2
+Cisco NX-OS	2
+Cryptocat	2
+contiki-ng	2
+Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile	2
+"Hands-on Vulnerability Learning Tool ""AppGoat"" for Web Application"	2
+Qemu	2
+Business Intelligence Enterprise Edition	2
+Connections	2
+Hospitality Cruise Shipboard Property Management System	2
+Adobe Acrobat Reader 2018.009.20050 and earlier versions, 2017.011.30070 and earlier versions, 2015.006.30394 and earlier versions	2
+Custom Body Class	2
+Fortinet FortiSOAR	2
+Amelia – Events & Appointments Booking Calendar	2
+PowerVM Hypervisor	2
+Brocade SANnav	2
+symfony	2
+go-ethereum	2
+IR615 Router	2
+libvirt	2
+Cisco Unified Communications Manager	2
+ EMUI	2
+Internet Explorer	2
+Hospitality Suite8	2
+Premiere Elements	2
+hpjansson/chafa	2
+Cisco Wide Area Application Services	2
+ansible	2
+Aruba AirWave Management Platform	2
+CloudLink	2
+Isilon OneFS	2
+TYPO3 CMS	2
+Snapdragon Auto, Snapdragon Compute, Snapdragon Mobile, Snapdragon Wired Infrastructure and Networking	2
+Microsoft Office 2019 for 32-bit editions	2
+Character Animator (Preview 4)	2
+Photoshop	2
+MT6580, MT6582E, MT6582H, MT6582T, MT6582W, MT6582_90, MT6589, MT6589TD, MT6592E, MT6592H, MT6592T, MT6592W, MT6592_90, MT6595, MT6731, MT6732, MT6735, MT6737, MT6739, MT6750, MT6750S, MT6752, MT6753, MT6755, MT6755S, MT6757, MT6757C, MT6757CD, MT6757CH, MT6758, MT6761, MT6762, MT6763, MT6765, MT6768, MT6769, MT6771, MT6779, MT6785, MT6795, MT6797, MT6799, MT6833, MT6853, MT6853T, MT6873, MT6875, MT6877, MT6883, MT6885, MT6889, MT6891, MT6893	2
+VMware Workspace ONE Access, Identity Manager and vRealize Automation	2
+Microsoft Exchange Server 2013	2
+ EPYC™ Processors 	2
+Coherence	2
+Library Management System	2
+Trend Micro OfficeScan	2
+next-auth	2
+keycloak	2
+Photo Gallery by 10Web – Mobile-Friendly Image Gallery	2
+ZOOM LATITUDE	2
+FLYGO	2
+VMware Tools for Windows	2
+Trend Micro Security (Consumer)	2
+GraalVM Enterprise Edition	2
+Apache JSPWiki	2
+Apache Tapestry	2
+Novatek	2
+Palo Alto Networks Zingbox Inspector	2
+McAfee ePolicy Orchestrator (ePO)	2
+GitLab Community and Enterprise Editions	2
+Modicon M580, Modicon M340, Modicon Quantum,  Modicon Premium (see security notification for specific versions)	2
+Snapdragon Auto, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables	2
+FLEXCUBE Private Banking	2
+Apache Dubbo	2
+gocd	2
+Jazz Team Server	2
+PADS Standard/Plus Viewer	2
+DaybydayCRM	2
+Chained Quiz	2
+Accusoft	2
+R6700	2
+Personal Cloud Storage A1	2
+BIND9	2
+Asgaros Forum	2
+Curam SPM	2
+Cisco IOS XR	2
+LibRaw	2
+Aruba Instant Access Points	2
+ECS Router Controller ECS (FLASH)	2
+openEuler:mindspore	2
+Post Grid	2
+Aruba EdgeConnect Enterprise Orchestration Software	2
+Cisco Hosted Collaboration Mediation Fulfillment 	2
+Lenovo Vibe and Lenovo China-only Moto Mobile Phones	2
+Cisco Small Business 300 Series Managed Switches 	2
+Common Applications Calendar	2
+McAfee Consumer Product Removal Tool	2
+Moodle 3.x	2
+Nucleus NET	2
+Cisco SD-WAN vManage 	2
+Cisco Policy Suite	2
+Chcnav - P5E GNSS 	2
+SAP Fiori Client	2
+Apache Kylin	2
+pdns	2
+Primavera Unifier	2
+UrbanCode Deploy	2
+Argus Safety	2
+Snapdragon	2
+ChakraCore, Microsoft Edge	2
+Fortinet FortiADC	2
+snipe/snipe-it	2
+iDRAC	2
+SpaceClaim	2
+Campaign	2
+Snapdragon Auto, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile	2
+rubygems.org	2
+Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wired Infrastructure and Networking	2
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wired Infrastructure and Networking	2
+SAP Internet Graphics Server	2
+Datakit Software libraries embedded in Luxion KeyShot software	2
+MiR100	2
+roxy-wi	2
+HarmonyOS;EMUI;Magic UI	2
+SIMATIC Drive Controller family	2
+Samsung	2
+Microsoft .NET Framework 4.5.2	2
+Helpdesk	2
+zulip	2
+chatwoot/chatwoot	2
+Intel(R) Graphics Driver for Windows	2
+Financial Services Analytical Applications Infrastructure	2
+Security Key Lifecycle Manager	2
+Anker	2
+octoprint/octoprint	2
+Primavera P6 Enterprise Project Portfolio Management	2
+sssd	2
+containerd	2
+Samsung Pay	2
+xen	2
+Agile PLM Framework	2
+Oracle Berkeley DB	2
+crater-invoice/crater	2
+IntelliJ IDEA	2
+convert-svg-core	2
+Cloud Private	2
+Adobe Digital Editions	2
+Vaadin	2
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Voice & Music, Snapdragon Wearables	2
+Hospitality Simphony First Edition	2
+Sterling File Gateway	2
+MongoDB Server	2
+ClickHouse	2
+Open5GS	2
+FrameMaker	2
+Fidelis Network	2
+Hyper-V	2
+Transportation Management	2
+sanitize-html node module	2
+Adobe Bridge	2
+WebCenter Sites	2
+Mattermost 	2
+DIAEnergie	2
+octorpki	2
+GPAC	2
+Open Build Service	2
+Apache CXF	2
+wildfly	2
+Hub	2
+Access Manager	2
+MediaWiki before 1.27.4, 1.28.x before 1.28.3, and 1.29.x before 1.29.2	2
+Cisco HyperFlex HX-Series 	2
+LAquis SCADA	2
+Simple Membership	2
+Retail Customer Management and Segmentation Foundation	2
+Cisco Security Manager 	2
+Commerce Guided Search / Oracle Commerce Experience Manager	2
+Fortinet FortiClientWindows	2
+Charm by Samsung	2
+elFinder	1
+Ignition	1
+Zenphoto	1
+Apache Flink	1
+SaltStack Salt	1
+Nexus Repository Manager	1
+OpenSSH	1
+Apache XML-RPC	1
+IIS Server	1
+SMB	1
+phpMyAdmin	1
+Apache ActiveMQ	1
+OpenSMTPD	1
+Liferay Portal	1
+Spring Cloud Gateway	1
+Ignite Realtime Openfire	1
+JetBrains	1
+fish-shell	1
+Cisco Meeting Server 	1
+Snapdragon Auto, Snapdragon Consumer IOT, Snapdragon Mobile	1
+Data Loss Prevention(DLP)	1
+merge	1
+Jsi	1
+Intelligent Management Center (IMC) PLAT	1
+HT Mega – Absolute Addons for Elementor Page Builder	1
+Service Contracts	1
+ICONICS GENESIS64; Mitsubishi Electric MC Works64	1
+LG webOS TV	1
+3D Builder	1
+mbed TLS	1
+kippo-graph	1
+MRI 1.5T	1
+websvn	1
+SAP Manufacturing Execution	1
+Game Server Status	1
+Reveal	1
+Phicomm Routers	1
+SC9863A/SC9832E/SC7731E/T610/T310/T606/T760/T610/T618/T606/T612/T616/T760/T770/T820/S8017	1
+iManager	1
+SICLOCK TC100, SICLOCK TC400	1
+Translate Multilingual sites – TranslatePress	1
+800xA RNRP	1
+VP9 Video Extensions	1
+ZoomSounds - WordPress Wave Audio Player with Playlist	1
+HUAWEI P30, HUAWEI P30 Pro	1
+html-janitor node module	1
+Cisco RV130W Wireless-N Multifunction VPN Router Firmware 	1
+Cisco ASA Software with Clientless SSL VPN portal is enabled Major Releases 9.0-9.6	1
+Adobe Photoshop 18.1.1 (2017.1.1) and earlier versions	1
+Fan Power Controller2 (FPC2)	1
+Universal Robots Robot Controllers CB 2, CB3, e-series	1
+Home Clean Services Management System	1
+libhdf5	1
+melis-front	1
+Xamarin.iOS	1
+GitHub Enterprise Server	1
+Hospitality Labor Management	1
+com.android.providers.contacts	1
+Meks Easy Photo Feed Widget	1
+Data ONTAP operating in 7-Mode	1
+Traccar	1
+Intel(R) PROSet/Wireless WiFi	1
+Blue Admin	1
+Tommy Hilfiger TH24/7 Android app	1
+Windows DirectShow	1
+iOS, Safari,  iTunes for Windows, iCloud for Windows	1
+Honor V10, Honor 10, Honor Play	1
+PC Worx	1
+PeopleSoft Enterprise FIN Staffing Front Office	1
+iOS, tvOS, watchOS	1
+Nagios XI	1
+Intel(R) Graphics Drivers	1
+Rockwell Automation Connected Components Workbench	1
+Sterling Partner Engagement Manager on Cloud	1
+Slider, Gallery, and Carousel by MetaSlider – Responsive WordPress Plugin	1
+Palo Alto Networks Expedition Migration Tool	1
+INTEREST Security Scanner	1
+Cisco vManage Software 	1
+Prusa Research	1
+Aruba CX 6200F Switch Series; Aruba 6300 Switch Series; Aruba 6400 Switch Series; Aruba 8325 Switch Series; Aruba 8400 Switch Series; Aruba CX 8360 Switch Series; ArubaOS-CX Switches;	1
+node-air-sdk node module	1
+unshiftio/url-parse	1
+Quiz And Survey Master (WordPress plugin)	1
+Retty App	1
+MH702x	1
+pouchdb node module	1
+Schneider Electric Wonderware Historian Client	1
+Cryptocurrency Pricing list and Ticker	1
+HPE Nimble Storage Hybrid Flash Arrays; Nimble Storage All Flash Arrays; Nimble Storage Secondary Flash Arrays	1
+Active IQ Unified Manager for VMware vSphere and Windows 7.3 and above	1
+HPE 3PAR Service Processors	1
+GOT2000 series GT27 model	1
+WCFM – Frontend Manager for WooCommerce along with Bookings Subscription Listings Compatible	1
+Pixar	1
+Axeda agent	1
+Insights from Google PageSpeed	1
+Linux kernel before 4.13.12	1
+operator-framework/hadoop	1
+Windows Server 2022 Azure Edition Core Hotpatch	1
+Geon	1
+CV81-WDM FW	1
+Nvu	1
+Windows Kernel	1
+htmldoc	1
+Office Server Document Converter	1
+nodeaaaaa node module	1
+HubSpot – CRM, Email Marketing, Live Chat, Forms & Analytics	1
+"YouPHPTube"""	1
+HPE Command View Advanced Edition	1
+Video Station	1
+Drag & Drop Builder, Human Face Detector, Pre-built Templates, Spam Protection, User Email Notifications & more!	1
+Dell EMC Integrated System for Microsoft Azure Stack Hub	1
+Rational ClearQuest	1
+RivetTracker	1
+Honeywell Maxpro VMS & NVR	1
+Microsoft 365 Apps for Enterprise for 32-bit Systems	1
+Linux kernel through v4.14-rc5	1
+helm	1
+F-Secure Internet Gatekeeper	1
+Samsung Email	1
+CommCell	1
+Libnsbmp	1
+rctf	1
+Easy Media Download	1
+Samsung Account	1
+SAP Contact Center	1
+SSnapdragon Automobile, Snapdragon Mobile, Snapdragon Wear	1
+Smart Touch Call	1
+Web Applications Desktop Integrator	1
+Trend Micro Deep Security as a Service	1
+LB60Z-1	1
+tcpslice	1
+qemu	1
+Google Chrome prior to 56.0.2924.76 for Linux, Windows and Mac, and 56.0.2924.87 for Android	1
+Apache Fineract	1
+APOGEE MBC (PPC) (P2 Ethernet)	1
+Simple Cold Storage Management System	1
+Cisco Firepower Management Center	1
+Dynamic Widgets	1
+Fortinet FortiWLM	1
+Cisco SD-WAN Solution unknown	1
+Email Center	1
+BUSINESS NOTEBOOK PCS BIOS; BUSINESS DESKTOP PCS BIOS; RETAIL POINT-OF-SALE SYSTEMS BIOS; WORKSTATIONS BIOS	1
+gibb-modul-151	1
+Fortinet FortiOS, FortiProxy	1
+GLPI	1
+Micro Focus VisiBroker	1
+Cisco HyperFlex HX Data Platform 	1
+OSS Support Tools	1
+MT6833, MT6853, MT6873, MT6877, MT6879, MT6885, MT6893, MT6895, MT6983, MT8185, MT8321, MT8385, MT8532, MT8666, MT8675, MT8765, MT8766, MT8768, MT8786, MT8788, MT8789, MT8791, MT8797	1
+Identity Analytics	1
+Rock Convert	1
+Microsoft Defender for IoT	1
+eclass	1
+Continuous Delivery for Puppet Enterprise (CD4PE)	1
+knot-resolver	1
+ansible, ansible community.aws, ansible amazon.aws	1
+icedtea-web	1
+PeopleSoft Enterprise SCM Purchasing	1
+Intel(R) Ethernet Controllers X722 and 800 series Linux RMDA driver	1
+ChakraCore, Microsoft Edge, Internet Explorer	1
+Cisco Enterprise NFV Infrastructure Software 	1
+baserCMS plugin Blog	1
+Code Snippets (WordPress plugin)	1
+WP Prayer	1
+iota All-In-One Security Kit	1
+NGINX Plus	1
+Cisco RoomOS Software 	1
+Secospace USG6300;USG6300E	1
+EMC Data Protection Advisor EMC Data Protection Advisor 6.1.x, EMC Data Protection Advisor 6.2, EMC Data Protection Advisor 6.2.1, EMC Data Protection Advisor 6.2.2, EMC Data Protection Advisor 6.2.3 prior to patch 446	1
+ytnef	1
+Spring Integration	1
+WPFront Notification Bar	1
+Cisco Email Security Appliance (ESA) 	1
+Redirection for Contact Form 7	1
+istio	1
+bgpd	1
+Great Quotes	1
+Hyperion BI+	1
+New User Approve	1
+Intel(R) Converged Security & Management Engine (CSME), Intel (R) Trusted Execution Engine Interface (TXE)	1
+Microsoft Malware Protection Engine	1
+mixin-deep	1
+Essential Addons for Elementor Lite 	1
+Online Class and Exam Scheduling System	1
+HG8245H	1
+rabbitmq-server	1
+Security Scan Plus (SSP)	1
+SoMove	1
+Teledyne DALSA Sherlock	1
+Spectrum Symphony	1
+Toshiba Home gateway HEM-GW16A	1
+XPLATFORM ActiveX	1
+Canvas Draw	1
+Sydney-L21	1
+kevinpapst/kimai2	1
+react-native-reanimated	1
+SnapManager for Oracle	1
+Cisco FindIT	1
+Cameralyzer	1
+django-filter	1
+RSA BSAFE SSL-J 	1
+skeemas	1
+Mirion Technologies Telemetry Enabled Devices	1
+Gdk-Pixbuf	1
+LearnPress – WordPress LMS Plugin	1
+ESXi	1
+802.2	1
+Rockwell Automation MicroLogix 1100	1
+Cloud Foundry UAA	1
+textproc/isearch package	1
+Windows 10 Version 1607 for x64-based Systems	1
+SAP Business One Mobile Android App	1
+Accordions (WordPress plugin)	1
+Connections Business Directory	1
+Pixel Cat – Conversion Pixel Manager	1
+react-bootstrap-table	1
+X-Pack Security	1
+LogonTracer	1
+NC Launcher2	1
+Launcher: Coming Soon & Maintenance Mode (WordPress plugin)	1
+perl-CRYPT-JWT	1
+Adobe Connect 9.7 and earlier	1
+Intel(R) SGX Platform Software for Windows*	1
+Archer C90	1
+Gemfire for PCF	1
+Ops-CLI	1
+Apache Knox	1
+Workstation	1
+core plugin for kitestudio themes	1
+SAP BusinessObjects Business Intelligence Platform (BI Workspace)	1
+Advanced Inbound Telephony	1
+APOGEE PXC and TALON TC BACnet Automation Controllers All versions <V3.5	1
+Philips Interventional WorkSpot, Coronary Tools/Dynamic Coronary Roadmap/Stentboost Live, ViewForum	1
+Business Process Manager	1
+Build service	1
+rtxteam/rtx	1
+guarddog	1
+HCL AppScan Standard Edition	1
+SAP NetWeaver AS JAVA (IIOP service) (SERVERCORE)	1
+Service Manager	1
+pjproject	1
+MT2731, MT2735, MT6297, MT6725, MT6735, MT6737, MT6739, MT6750, MT6750S, MT6755, MT6757, MT6757P, MT6758, MT6761, MT6762, MT6762D, MT6762M, MT6763, MT6765, MT6765T, MT6767, MT6768, MT6769, MT6769T, MT6769Z, MT6771, MT6775, MT6779, MT6781, MT6783, MT6785, MT6785T, MT6789, MT6797, MT6799, MT6833, MT6853, MT6855, MT6873, MT6875, MT6877, MT6879, MT6880, MT6883, MT6885, MT6889, MT6890, MT6891, MT6893, MT6895, MT6983, MT8666, MT8667, MT8675, MT8735A, MT8735B, MT8765, MT8766, MT8768, MT8771, MT8781, MT8786, MT8788, MT8789, MT8791, MT8797	1
+Delta Electronics CNCSoft ScreenEditor	1
+SAP IQ	1
+iView	1
+Intel(R) Brand Verification Tool	1
+open build service	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables	1
+Grandstream GSD3710	1
+AIBattle	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Mobile	1
+SAP Enterprise Financial Services (SAPSCORE)	1
+Cisco Unity Connection 	1
+glpi-inventory-plugin	1
+CNCSoft with ScreenEditor	1
+Role Based Pricing for WooCommerce	1
+Advantech WebAccess HMI Designer	1
+polkitd	1
+Digi International ConnectPort LTS 32 MEI	1
+serve node module	1
+HornetQ/Artemis	1
+python-markdown2	1
+Configurator	1
+P453UJ BIOS	1
+a-blog cms	1
+Payroll	1
+gulp-scss-lint	1
+Cisco UCS Central	1
+PeopleSoft Enterprise SCM Strategic Sourcing	1
+Cloud Foundry Foundation	1
+ifme	1
+Siebel UI Framework	1
+openjpeg	1
+Olingo	1
+Social Sharing Plugin – Social Warfare	1
+Mate10	1
+JUUKO K-800	1
+ThirstyAffiliates Affiliate Link Manager	1
+Aruba CX 6200F Switch Series; Aruba 6300 Switch Series; Aruba 6400 Switch Series; Aruba 8325 Switch Series; Aruba 8400 Switch Series; Aruba CX 8360 Switch Series; ArubaOS-CX Switches	1
+Rittal Chiller SK 3232-Series	1
+DIALink	1
+SAP S/4HANA	1
+Serv-U File Server	1
+CPO Shortcodes (WordPress plugin)	1
+Flets Setsuzoku Tool for Windows	1
+BTV-EMUI5.0,Berlin-EMUI5.0,Berlin-L21,Berlin-L22,Berlin-L23,MHA-AL00A	1
+WebAccess/NMS	1
+jasper	1
+Payables	1
+discourse-chat	1
+prismjs/prism	1
+NTP	1
+ldap-git-backup	1
+Planning Analytics Local	1
+Load Balancer ADC	1
+Intel(R) SSD DC S4500/S4600 Series	1
+Microsoft Excel	1
+All 404 Redirect to Homepage	1
+python-novajoin	1
+LiveWallpaper	1
+GLPI Product	1
+SAP HANA	1
+envoy	1
+Cisco Web Security Appliance (WSA)	1
+Modicon M580	1
+Exponent CMS	1
+sgqserve node module	1
+wordpress-gallery-transformation	1
+codeql-action	1
+Rational DOORS	1
+Cisco FXOS and NX-OS unknown	1
+node-pdf-generator	1
+Customers Online	1
+Qe SEO Handyman	1
+School Manage System	1
+Yandex Browser (Desktop)	1
+AR120-S, AR1200, AR1200-S, AR150, AR150-S, AR160, AR200, AR200-S, AR2200, AR2200-S, AR3200, AR3600, AR510, DP300, IPS Module, NGFW Module, NIP6300, NIP6600, NIP6800, NetEngine16EX, RSE6500, SRG1300, SRG2300, SRG3300, SVN5600, SVN5800, SVN5800-C, SeMG9811, Secospace USG6300, Secospace USG6500, Secospace USG6600, TE30, TE40, TE50, TE60, TP3106, TP3206, USG6000V, USG9500, USG9520, USG9560, USG9580, VP9660, ViewPoint 8660, ViewPoint 9030	1
+excon	1
+py-bcrypt	1
+Adobe Acrobat Reader 15.020.20042 and earlier, 15.006.30244 and earlier, 11.0.18 and earlier.	1
+Zoho SalesIQ	1
+arangodb	1
+MAHO-PBX NetDevancer series	1
+http-file-server	1
+NVIDIA Jetson AGX Xavier series, Jetson Xavier NX, Jetson TX2 series, Jetson TX2 NX	1
+Secospace USG6300,Secospace USG6600	1
+BMC firmware for Z10PR-D16	1
+E2fsprogs	1
+ELECOM routers	1
+Jetpack CRM	1
+TencentOS-tiny	1
+icoutils	1
+CompactLogix 5370	1
+TIBCO JasperReports Server	1
+Google Chrome prior to 63.0.3239.84 unknown	1
+orchardcms/orchardcore	1
+Apache ShenYu (incubating) 	1
+FLEXCUBE Enterprise Limits and Collateral Management	1
+Self Service Password Reset (SSPR)	1
+One Church Management System	1
+Identity Manager Plug-ins	1
+Microsoft Windows 10	1
+Easergy T300 (firmware 2.7 and older)	1
+FactoryTalk View SE	1
+MT5522, MT5527, MT5597, MT5598, MT5599, MT6580, MT6735, MT6737, MT6739, MT6750S, MT6753, MT6755S, MT6757, MT6757C, MT6757CD, MT6757CH, MT6761, MT6762, MT6763, MT6765, MT6768, MT6771, MT6779, MT6785, MT6833, MT6853, MT6853T, MT6873, MT6877, MT6885, MT6889, MT6893, MT8163, MT8167, MT8167S, MT8168, MT8173, MT8175, MT8183, MT8185, MT8195, MT8321, MT8362A, MT8365, MT8385, MT8735A, MT8735B, MT8765, MT8766, MT8768, MT8786, MT8788, MT8789, MT8791, MT8797, MT9256, MT9285, MT9286, MT9288, MT9629, MT9631, MT9632, MT9636, MT9638, MT9639, MT9650, MT9652, MT9669, MT9670, MT9675, MT9685, MT9686, MT9688, MT9931, MT9950, MT9970, MT9980, MT9981	1
+iTunesRPC-Remastered	1
+Hybrid Cloud Observability (HCO)/ SolarWinds Platform	1
+Simple Single Sign On	1
+Fatek Automation Designer 2.1.2.2	1
+Vertical scroll recent post	1
+browserless-chrome	1
+MedNet	1
+Login with Cognito	1
+Trade Management	1
+ltt node module	1
+Yi Technology	1
+tremor-runtime	1
+mailform	1
+iTop	1
+Adobe Flash Player 27.0.0.183 and earlier versions	1
+edge.js	1
+SolarWinds	1
+Uploading SVG, WEBP and ICO files (WordPress plugin)	1
+xguest	1
+relatedcode/Messenger	1
+IndraMotion MLC L20, L40	1
+libtar	1
+DSpace	1
+HPE Smart Update Manager	1
+Browsershot	1
+Cisco Firepower System Software	1
+Trend Micro Anti-Threat Toolkit (ATTK)	1
+wasmtime	1
+Bento4	1
+Garden-runC	1
+Rational Engineering Lifecycle Manager	1
+Portal for ArcGIS	1
+Migration, Backup, Staging – WPvivid (WordPress plugin)	1
+coreos-installer	1
+mongodb-instance node module	1
+EDS Subsystem, FactoryTalk Linx software (Previously called RSLinx Enterprise), RSLinx Classic, RSNetWorx software, Studio 5000 Logix Designer software	1
+WordLift – AI powered SEO – Schema	1
+Cisco Prime Network Registrar 	1
+Dell Peripheral Manager	1
+Adobe Reader Mobile	1
+ToN-MasterServer	1
+minio	1
+Visual Studio Code - Java Extension Pack	1
+loofah	1
+Connected Components Workbench	1
+Kenexa LCMS Premier on Cloud	1
+podofo	1
+PHPList	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking	1
+rpm-ostree,	1
+Micro Focus Rumba 9.4	1
+Jackman-AL00D	1
+Schneider Electric InduSoft Web Studio and InTouch Machine Edition	1
+OPC	1
+printf	1
+Knowledge Management	1
+Botan	1
+Pega Infinity	1
+SAP NetWeaver Process Integration (Adapter Engine)	1
+Movable Type	1
+Product Feed PRO for WooCommerce	1
+Newspaper	1
+ClamAV AntiVirus software versions 0.99.2 and prior	1
+CUJO	1
+DSL-2750U	1
+Smiley	1
+Jettison	1
+Ghost	1
+Spring AMQP Spring AMQP versions prior to 1.7.4, 1.6.11, and 1.5.7	1
+Tutor LMS – eLearning and online course solution	1
+Microsoft Edge (EdgeHTML-based) on Windows 10 for 32-bit Systems	1
+Cisco Adaptive Security Appliance (ASA) Software	1
+DevExpress	1
+Akaunting	1
+Uniscribe in Microsoft Windows Vista SP2, Windows Server 2008 SP2, and R2 SP1, and Windows 7 SP1.	1
+Q'center Virtual Appliance	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking	1
+UWP 3.0 Monitoring Gateway and Controller	1
+Snapdragon Auto, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile	1
+radare2	1
+Samsung Cloud	1
+Emptoris Strategic Supply Management	1
+SolarView Compact	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile	1
+Web Media Extensions	1
+HiSuite 4.0.5.300_OVE	1
+UNIQLO App for Android	1
+OceanStor 5310 V5	1
+Web Invoice	1
+Softmaker	1
+Responsive Menu – Create Mobile-Friendly Menu	1
+Dreamweaver	1
+iStore	1
+Intel(R) PROSet/Wireless WiFi Software Security	1
+Database Backup for WordPress	1
+Agent (MA)	1
+SAP Process Integration (Enterprise Service Repository JAVA Mappings)	1
+apport	1
+TBox	1
+SOA Suite	1
+rsyslog	1
+frourio	1
+Adobe Creative Cloud Desktop Application before 4.5.5.342	1
+NVIDIA GPU Display Driver for Windows	1
+NSX Edge	1
+apprise	1
+Security SiteProtector System	1
+Hitachi Application Server Help	1
+nTracker USB Enterprise	1
+coebot-www	1
+IOBit	1
+VLC Media Player	1
+USB FE/1GbE/2.5GbE/5GbE NIC Family	1
+Apache Qpid Proton	1
+bitstorm	1
+HPE OC Media Platform (OCMP)	1
+DiskStation Manager	1
+Play Services SDK	1
+Retail Back Office	1
+hestiacp/hestiacp	1
+CloudView NMS before 2.10a	1
+Microsoft Visual Studio 2019 version 16.4 (includes 16.0 - 16.3)	1
+WECON LeviStudioU	1
+nocodb/nocodb	1
+Orion Platform	1
+ToolBar to Share	1
+sprinfall/webcc	1
+Administration Panel	1
+Unisphere for PowerMax	1
+jQuery Sparkle	1
+dparse	1
+Trend Micro Worry-Free Business Security	1
+Azure RTOS	1
+Robotic Process Automation as a Service	1
+Digital Editions	1
+Public Sector Financials (International)	1
+McAfee Database Security (DBSec)	1
+Easytest	1
+golang.org/x/text/language	1
+Web Services Manager	1
+Cisco Prime Collaboration Assurance	1
+DataPower Gateways	1
+gogs	1
+Kaspersky Embedded Systems Security	1
+HN7740S	1
+Cisco Webex Video Mesh 	1
+InDesign 13.0 and below	1
+NVIDIA GPU Display Driver 	1
+JSON-Patch	1
+SAP NetWeaver AS ABAP Platform(KRNL32NUC)	1
+libmspack	1
+Waitress	1
+Online Food Ordering System	1
+SAP Internet Graphics Service	1
+"""HCL Connections"""	1
+McAfee Total Protection (MTP)	1
+Cisco Finesse 	1
+LifeStyle	1
+SAP NetWeaver (EP Web Page Composer)	1
+HPE iLO4 and HPE iLO5	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile	1
+Adobe Digital Editions 4.5.6 and earlier versions	1
+Application Testing Suite	1
+SAP NetWeaver AS for JAVA (Telnet Commands)	1
+GROWI	1
+Windows 10 Version 1809 for ARM64-based Systems	1
+Intel(R) Thunderbolt(TM) Controller Advisory	1
+Compact WP Audio Player	1
+Windows RDP	1
+pig-vector	1
+R7800	1
+LDAP Account Manager (LAM) Pro	1
+FusionCompute	1
+node-lmdb	1
+JD Edwards EnterpriseOne Orchestrator	1
+MT6833, MT6853, MT6873, MT6877, MT6893, MT8167, MT8167S, MT8168, MT8175, MT8185, MT8362A, MT8365, MT8385, MT8666, MT8675, MT8765, MT8786, MT8788, MT8789, MT8791, MT8797	1
+CLUEVO LMS, E-Learning Platform	1
+RTLS Studio	1
+tripleo-ansible	1
+Libbpg	1
+Adobe Experience Manager Forms 6.2 and earlier, LiveCycle 11.0.1, LiveCycle 10.0.4	1
+Samsug Internet	1
+P9 Plus	1
+The installers of ScanSnap Manager and the Software Download Installer	1
+servicemesh-operator	1
+Secospace USG6600	1
+Moodle 2.x and 3.x	1
+detekt/detekt	1
+Security Verify Access Docker	1
+Filr	1
+Hopper	1
+bug-tracker	1
+Bus module CPX-E-EP	1
+Cybozu Office	1
+Fortinet FortiClientLinux	1
+Office/WordPad	1
+Metricool	1
+Intel(R) Baseboard Management Controller (BMC) firmware	1
+Vicky-AL00A	1
+WP Block and Stop Bad Bots Crawlers and Spiders and Anti Spam Protection Plugin StopBadBots	1
+kubeedge	1
+mobile-friendly-app-builder-by-easytouch	1
+WebCalendar	1
+offlineimap	1
+Media File Renamer – Auto & Manual Rename (WordPress plugin)	1
+Rockwell Automation Arena Simulation Software	1
+zzcms	1
+Cisco SPA112 2-Port Phone Adapter 	1
+BigFix Inventory	1
+IBM InfoSphere Information Server	1
+CASH	1
+MIST Cloud UI	1
+McAfee Advanced Threat Defense (ATD)	1
+MT8167, MT8175, MT8183, MT8362A, MT8365, MT8385	1
+rdesktop	1
+massif node module	1
+wildfly-elytron	1
+Cisco Unified Computing System (Management Software) 	1
+Revive Adserver All versions before 3.2.3	1
+Authenticator Plugin	1
+Honor V9 play	1
+Discourse	1
+Intel(R) BMC	1
+Aruba Operating System Software	1
+Windows GDI	1
+Security Verify Governance, Identity Manager	1
+Recipe Card Blocks by WPZOOM	1
+Bitbucket Data Center	1
+Odyssey	1
+NewStatPress	1
+TIBCO FTL - Community Edition	1
+jupyter-server-proxy	1
+guzzle	1
+in-toto-golang	1
+Apache OpenOffice	1
+Zoom	1
+PRA-ES8P2S	1
+SAP Host Agent	1
+S12700;S5700;S6700;S7700	1
+ffmepg node module	1
+MT6580, MT6737, MT6739, MT6761, MT6762, MT6765, MT6768, MT6769, MT6779, MT6781, MT6785, MT6833, MT6873, MT6875, MT6877, MT6883, MT6885, MT6889, MT6983, MT8321, MT8667, MT8675, MT8765, MT8766, MT8768, MT8786, MT8788, MT8789, MT8797	1
+Gerbv	1
+francoisjacquet/rosariosis	1
+Cisco NX-OS Software for Nexus 9000 Series Fabric Switches ACI Mode 	1
+All supported processors	1
+Popup Builder (WordPress plugin)	1
+Update Server	1
+paypal-adaptive	1
+WARP 	1
+SAP Enable Now	1
+SAP Business Objects	1
+Metrics	1
+Nextcloud Deck	1
+Cisco Immunet Antimalware Installer	1
+convos	1
+Countdown, Coming Soon, Maintenance – Countdown & Clock	1
+Emily-AL00A	1
+HPE CentralView Fraud Risk Management	1
+IDS 2102	1
+2019.2 IPU – UEFI	1
+Microsoft Project Server	1
+xmldom	1
+Trend Micro InterScan Web Security Virtual Appliance	1
+Like Button Rating ♥ LikeBtn	1
+Rate my Post – WP Rating System (WordPress plugin)	1
+Migrate Users	1
+Microsoft SQL Server 2017 for x64-based Systems (GDR)	1
+Microsoft Dynamics NAV 2015	1
+Netty	1
+ansible-runner	1
+Chameleon (WordPress plugin)	1
+Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking	1
+MapPress Maps for WordPress	1
+dustjs	1
+parse-server	1
+Social Media Share Buttons | MashShare	1
+Proficy Historian	1
+VNX2	1
+Cisco Data Center Analytics Framework	1
+GPAC Project	1
+Keybase Client for Windows	1
+SC9863A/SC9832E/SC7731E/T610/T310/T606/T760/T610/T618/T606/T612/T616/T760/T770/T820/S8011	1
+Integration Bus	1
+Optimize images ALT Text (alt tag) & names for SEO using AI	1
+TIBCO JasperReports Library	1
+Phoenix Contact ILC PLCs	1
+1288H V5; 2288H V5; 2488 V5; CH121 V3; CH121L V3; CH121L V5; CH121 V5; CH140 V3; CH140L V3; CH220 V3; CH222 V3; CH242 V3; CH242 V5; RH1288 V3; RH2288 V3; RH2288H V3; XH310 V3; XH321 V3; XH321 V5; XH620 V3	1
+openshift/builder	1
+xrdp	1
+MouseWheel Smooth Scroll	1
+Dell Hybrid Client (DHC)	1
+NFS Volume Release	1
+Engineering Requirements Quality Assistant	1
+WatermelonDB	1
+McAfee Agent (MA)	1
+omniauth-auth0	1
+katello	1
+Service Framework application	1
+FortiADC	1
+Kiestra and InoqulA systems	1
+PrestaShop	1
+IBM Business Automation Workflow	1
+openenclave	1
+Intel(R) Accelerated Storage Manager in Intel® Rapid Storage Technology Enterprise Advisory	1
+CA Privileged Access Manager	1
+typed-function	1
+3rd Gen AMD EPYC™	1
+Osquery	1
+BIG-IQ	1
+HCL BigFix Inventory	1
+AXIS Communications products	1
+soledad	1
+POWER METER SICAM Q100	1
+PeopleSoft Enterprise FIN Expenses	1
+Teamcenter Active Workspace V4	1
+Bug Library	1
+Adobe Bridge CC	1
+Web Server on Modicon M340, Modicon Quantum and Modicon Premium Legacy offers and their Communication Modules (see security notification for version information)	1
+OpenOLAT	1
+HP inkjet printers	1
+Visual Studio Code WSL Extension	1
+libiec61850	1
+Presto	1
+MT6580, MT6735, MT6737, MT6739, MT6753, MT6761, MT6765, MT6768, MT6771, MT6779, MT6781, MT6785, MT6789, MT6833, MT6853, MT6853T, MT6873, MT6877, MT6879, MT6883, MT6885, MT6889, MT6893, MT6895, MT6983, MT8168, MT8365	1
+vault-cli	1
+EcoStruxure™ Control Expert (all versions) and Unity Pro (former name of EcoStruxure™ Control Expert) (all versions)	1
+Intel(R) Data Center Manager SDK	1
+argo-cd	1
+AmegaView	1
+AC500 V2 products with onboard Ethernet	1
+ERP	1
+electron	1
+Rustici Software SCORM Engine	1
+Intel(R) Data Center Manager Console	1
+REPLICATED CLASSIC	1
+Buffalo network devices	1
+Microsoft Visual Studio 2019 version 16.7 (includes 16.0 â€“ 16.6)	1
+RSSHub	1
+Paid Membership, Ecommerce, Registration Form, Login Form, User Profile, Paywall & Restrict Content – ProfilePress	1
+Tahoe-LAFS	1
+crosis	1
+mssql.js node module	1
+Admin UI Module	1
+psnode	1
+Facebook Thrift	1
+platform	1
+Server Message Block 1.0	1
+oVirt	1
+Message Handling	1
+Skype for Business	1
+Alphaware Simple E-Commerce System	1
+CA Strong Authentication	1
+openvas-scanner	1
+LifterLMS Paypal	1
+Advanced Outbound Telephony 12.1.1;12.1.2;12.1.3;12.2.3;12.2.4;12.2.5;12.2.6	1
+iSupplier Portal	1
+Connext DDS Professional	1
+Information Cards Module	1
+Sterling B2B Integrator Standard Edition	1
+Cisco Firepower 4100 Series NGFW and Firepower 9300 Security Appliance	1
+SAP NetWeaver (Knowledge Management)	1
+Rancher	1
+WP User – Custom Registration Forms, Login and User Profile	1
+SIMATIC S7-1500 CPU	1
+Mitsubishi Electoric FA Engineering Software	1
+ProcessMaker Enterprise	1
+ABAP Platform(SAP Basis)	1
+MT6580, MT6735, MT6737, MT6739, MT6753, MT6761, MT6765, MT6768, MT6771, MT6779, MT6781, MT6785, MT6833, MT6853, MT6873, MT6877, MT6879, MT6883, MT6885, MT6889, MT6893, MT6895, MT6983, MT8666, MT8667, MT8675	1
+SC9863A/SC9832E/SC7731E/T610/T310/T606/T760/T610/T618/T606/T612/T616/T760/T770/T820/S8014	1
+Sanitization Management System	1
+Factor	1
+netty	1
+Booster for WooCommerce	1
+Tivoli Netcool/OMNIbus	1
+Qlik Sense Enterprise on Windows	1
+Rational Rhapsody Design Manager 	1
+cve-services	1
+voteapp	1
+Sylius	1
+HUAWEI Mate 20	1
+MT6879, MT6895, MT6983	1
+2019.2 IPU – Intel(R) SGX with Intel(R) Processor Graphics Update	1
+sds	1
+Samsung Internet Browser	1
+http4s	1
+Epignosis	1
+Mongoose Page Plugin	1
+Movie Portal Script	1
+Installer for Shin Kinkyuji Houkoku Data Nyuryoku Program (program released on 2011 March 10)	1
+Squaretype	1
+Easy Smooth Scroll Links	1
+750-81xx/xxx-xxx Series PFC100/PFC200	1
+Binatone Hubble Cameras	1
+AR3200,TE40,TE50,TE60	1
+Avaya Aura Devices Services	1
+RouterOS	1
+MicroLogix 1400 Controllers	1
+Intel(R) VT-d products	1
+ZXCLOUD iRAI	1
+syscp	1
+Huawei Watch 2	1
+Intel(R) EPID SDK	1
+Apache Doris(Incubating)	1
+Apache Calcite	1
+eDirectory	1
+House Rental System	1
+Citrix ADC, Citrix Gateway, Citrix SDWAN WAN-OP	1
+Tizen wearable devices	1
+Bitdefender AV for Mac	1
+BD Viper LT System	1
+My Cloud Home	1
+Dolibarr	1
+FarCry Solr Pro Plugin	1
+WP-DBManager	1
+Foreman	1
+AntennaHouse	1
+jquery-minicolors	1
+openstack/python-oslo.utils	1
+python-keystoneclient	1
+PDF24 Article To PDF	1
+EC-CUBE 2 series	1
+IPC-HDW4300S\NVR11HS\IPC-HFW4X00\IPC-HDW4X00\IPC-HDBW4X00\IPC-HF5X00\IPC-HFW5X00\IPC-HDW5X00\IPC-HDBW5X00\NVR11HS	1
+eSpace IAD V300R001C03, V300R001C04, V300R001C06, V300R001C20 and V300R001C07	1
+Windows COM	1
+Apache James server	1
+Autoptimize	1
+Demokratian	1
+xwiki-commons	1
+Operation Bridge (containerized)	1
+spinnaker	1
+Piranha	1
+WG1200HP	1
+WhatsApp for Android	1
+isolated-vm	1
+jose	1
+libxls	1
+VMware vRealize Business for Cloud	1
+FoxView HMI SCADA (All Foxboro DCS, Foxboro Evo, and IA Series versions prior to Foxboro DCS Control Core Services 9.4 (CCS 9.4) and FoxView 10.5.)	1
+Apache PDFBox	1
+OMIMSSC (OpenManage Integration for Microsoft System Center)	1
+Cachet	1
+UR family	1
+Java SE JDK and JRE	1
+NetIQ Designer for Identity Manager before 4.5.3	1
+FortiExtender	1
+iBoot-PDU FW	1
+Remove Footer Credit	1
+Team	1
+Delta Electronics DOPSoft	1
+openstack-rabbitmq-container	1
+clinical-genomics/scout	1
+EasyLobby Solo	1
+cargo	1
+Cisco Unified Contact Center Enterprise	1
+PeopleSoft Enterprise HCM Talent Acquisition Manager	1
+HPE Integrated Lights-Out 4 (iLO 4) For HPE Gen9 servers; HPE Integrated Lights-Out 5 (iLO 5) for HPE Gen10 Servers	1
+tooljet/tooljet	1
+SAP Adaptive Server Enterprise	1
+Red Hat Directory Server	1
+McAfee Endpoint Security (ENS) for Linux	1
+privoxy	1
+SimpleLink Wi-Fi, MSP432, CC13XX, CC26XX, CC32XX, CC3100	1
+IP security cameras	1
+Java ME - Specifications	1
+Microsoft Visual Studio	1
+NVIDIA vGPU Software	1
+exporter-toolkit	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables	1
+Calsos CSDX and CSDJ series products	1
+Blackhole for Bad Bots	1
+honor 5C,honor 6x	1
+ionicabizau/parse-url	1
+Interactive Graphical SCADA System Data Collector (dc.exe) (V15.0.0.21243 and prior)	1
+ OTRSTicketForms	1
+Pulse Secure Desktop Cient	1
+Apache Subversion	1
+ikiwiki	1
+react-native-meteor-oauth node module	1
+Cisco IOS 12.2(53)SE1	1
+smart_proxy_salt	1
+HPE Superdome Flex Server	1
+Philips Ultrasound ClearVue	1
+Spectrum Control	1
+Clean My Mac	1
+Palo Alto Networks PAN-OS	1
+PPM	1
+Synology Calendar	1
+ADOdb	1
+Abacus ERP	1
+ iOS, macOS, tvOS, watchOS 	1
+Linux Kernel	1
+McAfee Exploit Detection and Response (EDR) for Linux	1
+onionshare	1
+AirPort Base Station Firmware Update	1
+WeChat	1
+Snapdragon Auto, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wired Infrastructure and Networking	1
+P+F Comtrol RocketLinx	1
+FileNet Content Manager	1
+gsap	1
+OneDrive for Windows	1
+publify/publify	1
+EZ Touch Editor	1
+ISPSoft	1
+Kabona AB WDC prior to Version 3.4.0	1
+DMC HTMLFilter	1
+Edit Comments XT 	1
+arches	1
+Bridgecrew Checkov	1
+2nd Gen EPYC	1
+knightjs	1
+Cisco Identity Services Engine	1
+BIMx Desktop Viewer	1
+UpdraftPlus WordPress Backup Plugin	1
+iTunes for Windows	1
+TelePresence Video Communication Server (VCS)	1
+Operations Manager i	1
+mitmproxy	1
+gdm	1
+Apache Storm	1
+Google Earth Pro	1
+pk-app-wonderbox node module	1
+OFBiz	1
+GPON router	1
+Modicon M221, All Versions	1
+curl	1
+Snow Agent for Windows	1
+openemr	1
+DataPower Gateway	1
+Microsoft Outlook	1
+node-redis	1
+Apache Kafka	1
+ROBOGUIDE	1
+NIS-Elements Viewer	1
+Apache NuttX (incubating)	1
+AP2000;IPS Module;NGFW Module;NIP6300;NIP6600;NIP6800;S5700;SVN5600;SVN5800;SVN5800-C;SeMG9811;Secospace AntiDDoS8000;Secospace USG6300;Secospace USG6500;Secospace USG6600;USG6000V;eSpace U1981	1
+soketi	1
+openstack-cinder	1
+Crucible	1
+TJWS2	1
+vGPU software (Virtual GPU Manager), NVIDIA Cloud Gaming (Virtual GPU Manager)	1
+QCP 200W	1
+Brocade SANNav	1
+IPS,Module,NGFW,Module,NIP6300,NIP6600,Secospace,USG6300,Secospace,USG6500,Secospace,USG6600,USG9500	1
+eTRAKiT3	1
+Versa VOS	1
+wordpress	1
+Ansible Tower	1
+Siemens Solid Edge	1
+XClarity Administrator	1
+Outlook for iOS	1
+GX Works2	1
+Easy Form Builder	1
+MT6580, MT6735, MT6737, MT6739, MT6750, MT6750S, MT6755, MT6755S, MT6761, MT6762, MT6763, MT6765, MT6768, MT6769, MT6771, MT6779, MT6781, MT6785, MT6789, MT6795, MT6797, MT6833, MT6853, MT6853T, MT6873, MT6875, MT6877, MT6879, MT6883, MT6885, MT6889, MT6890, MT6891, MT6893	1
+Cisco Identity Services Engine (ISE)	1
+Cisco Unified Computing System Director 	1
+Sealevel	1
+StoredIQ	1
+notifications	1
+phoronix-test-suite/phoronix-test-suite	1
+Atmail Webmail Server	1
+Cisco Prime Service Catalog	1
+MELSEC iQ-R series CPU modules	1
+Yada Wiki	1
+AR120-S,AR1200,AR1200-S,AR150,AR150-S,AR160,AR200,AR200-S,AR2200,AR2200-S,AR3200,AR3600,NetEngine16EX,SRG1300,SRG2300,SRG3300	1
+Eaton 9000X Drive	1
+SAP NetWeaver AS for ABAP (Web Survey)	1
+Intel(R) NUC 10 Performance Kits and Intel(R) NUC 10 Performance Mini PCs	1
+WP Super Cache	1
+OnCommand Unified Manager for 7-Mode (core package)	1
+Tenable Appliance	1
+Tiny File Manager	1
+Cisco Unified Computing System (Managed) 	1
+MT6765, MT6768, MT6769, MT8183, MT8185, MT8385, MT8666, MT8667, MT8768, MT8786, MT8788, MT8789	1
+Very Simple Contact Form	1
+Apache ActiveMQ Artemis	1
+Intel(R) NUC M15 Laptop Kit Driver Pack software	1
+PI Studio HMI	1
+Security Privileged Identity Manager	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Voice & Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking	1
+Apport	1
+App Player	1
+Drive	1
+Atlantis Word Processor	1
+WordPress Zero Spam	1
+Credova_Financial	1
+node-opencv node module	1
+cobbler/cobbler	1
+Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016	1
+S12700, S1700,S3700,S5700,S6700,S7700, S9700, eCNS210_TD	1
+Fortinet FortiProxy	1
+HPE Service Pack for Proliant (HPE SPP)	1
+rizin	1
+Simcenter STAR-CCM+ Viewer	1
+Veraport	1
+Yamaha Broadband VoIP Router RT57i	1
+Business Process Manager Express	1
+Intel(R) Binary Configuration Tool for Windows	1
+LVRTC eParakstitajs 3.0 (1.3.0) and edoc-libraries-2.5.4_01	1
+Geovap Reliance SCADA	1
+Workstation Pro/Player	1
+asciitable.js	1
+HCL Launch	1
+Superset	1
+PhoneTrack Meu Site Manager	1
+xcfa	1
+DethemeKit For Elementor	1
+PowerIso	1
+Event Geek	1
+EN100 Ethernet module DNP3 IP variant	1
+Elastic X-Pack Reporting	1
+egf	1
+Secure Connect Gateway (SCG) Policy Manager	1
+CA API Developer Portal	1
+Pivotal RabbitMQ	1
+COREid Access	1
+SIMATIC eaSie Core Package	1
+Simple Online Book Store System	1
+Apache DolphinScheduler	1
+HCL VersionVault Express	1
+N-Tron 702-W / 702M12-W	1
+Jira Service Desk Server	1
+Intel(R) VTune(TM) Profiler	1
+DSS Professional, DSS Express, DHI-DSS7016D-S2/DHI-DSS7016DR-S2, DHI-DSS4004-S2	1
+EcoStruxure™ Operator Terminal Expert 3.1 Service Pack 1A and prior running on Harmony HMIs HMIST6 Series, HMIG3U in HMIGTU Series, HMISTO Series and Pro-face BLUE 3.1 Service Pack 1A and prior running on Pro-face HMIs: ST6000 Series, SP-5B41 in SP5000 Series, GP4100 Series	1
+Yandex Browser for Android	1
+AVideo	1
+Rational Team Concert	1
+Lead Management System	1
+syngo Dynamics	1
+CPP-Ethereum	1
+myPRO	1
+Ryzen™ Series 	1
+Webvendome	1
+Microsoft Visual Studio 2017 version 15.9 (includes 15.0 - 15.8)	1
+Quick Subscribe	1
+dhcpv6	1
+ZOLL Defibrillator Dashboard	1
+Cisco TelePresence TC Software 	1
+xhyve	1
+security	1
+Banking Trade Finance	1
+Java SDK for Azure IoT	1
+Windows Server, version 2004 (Server Core installation)	1
+Photo Station	1
+On Page SEO + Whatsapp Chat Button	1
+Keycloak Gatekeeper	1
+Intel(R) PROSet/Wireless WiFi Software	1
+WhatsApp for iOS	1
+Gallery	1
+SpaceCom	1
+Human Resources	1
+Versa Director	1
+Applications DBA	1
+databasir	1
+Self-extracting archive files created by IExpress bundled with Microsoft Windows	1
+UNIVERGE SV9500/SV8500 series	1
+WPML Multilingual CMS (WordPress plugin)	1
+iSetup	1
+Intel(R) Processors with SGX	1
+BouncyCastle TLS	1
+Simplessus	1
+Frontend Post WordPress Plugin – AccessPress Anonymous Post	1
+RAID Manager Storage Replication Adapter	1
+Intel(R) Computing Improvement Program	1
+Music Station	1
+Nice-AL00	1
+OpenImageIO	1
+Key Lifecycle Manager	1
+Best Image Gallery & Responsive Photo Gallery – FooGallery	1
+Adobe Flash Player 23.0.0.207 and earlier, 11.2.202.644 and earlier	1
+Cisco Jabber for Windows Client	1
+RTX830, NVR510, NVR700W, RTX1210	1
+exacqVision Enterprise System Manager (ESM)	1
+Cisco Business Wireless Access Point Software 	1
+nickchanbot	1
+Swift-Ubuntu	1
+transloadit/uppy	1
+opencast	1
+UPS Companion Software	1
+Intel(R) QAT for Linux	1
+rubygem-openshift-origin-controller	1
+Autonomy KeyView IDOL	1
+SEPCOS Control and Protection Relay firmware package	1
+DEXTUploadX5	1
+Cisco Small Business SPA50x, SPA51x, and SPA52x Series IP Phones	1
+Philips IntelliBridge Enterprise (IBE)	1
+BIOSConnect	1
+Elastic Cloud Enterprise	1
+Eltex ESP-200	1
+HCL Workload Automation	1
+CAPI	1
+CRM Technical Foundation	1
+Bitdefender Antivirus Free	1
+Protocol	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music	1
+WR710N	1
+SAP NetWeaver, ABAP Platform and SAP Host Agent	1
+VMware Horizon Server	1
+elFinder.Net.Core	1
+cockpit	1
+LOGO! Soft Comfort	1
+multimedial images	1
+bwm-ng	1
+Acrobat and Reader	1
+Acronis Cyber Protect Home Office	1
+Gym Management System	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile	1
+openmrs-module-referenceapplication	1
+Cisco Firepower Detection Engine	1
+Parasolid V33.1	1
+NVIDIA VGPU Display Driver	1
+dnsdist	1
+Installers generated by Squirrel.Windows	1
+elfspirit	1
+finastra-nodejs-libs	1
+i2 Analyze	1
+Survey	1
+snapd	1
+Office 365 ProPlus	1
+RT-AC1200HP	1
+iOS, Safari	1
+Simple Popup Newsletter	1
+Tiny FTP Daemon	1
+gruntjs/grunt	1
+Cisco Prime Infrastructure and Evolved Programmable Network Manager 3.1(0.128), 1.2(400), 2.0(1.0.34A)	1
+vm2	1
+Modicon M340 CPUs: BMXP34 (All Versions), Modicon Quantum CPUs with integrated Ethernet (Copro): 140CPU65 (All Versions), Modicon Premium CPUs with integrated Ethernet (Copro): TSXP57 (All Versions), Modicon M340 ethernet modules: (BMXNOC0401, BMXNOE01, BMXNOR0200H) (All Versions), Modicon Quantum and Premium factory cast communication modules: (140NOE77111, 140NOC78*00, TSXETY5103, TSXETY4103)	1
+Microsoft Exchange Server 2010	1
+SemanticDrilldown Extension	1
+CompasX	1
+Financial Services Liquidity Risk Management	1
+CandidATS	1
+Cisco Remote Expert Manager	1
+@theia/plugin-ext	1
+Passeo	1
+Micro Focus Enterprise Developer, Micro Focus Enterprise Server	1
+Foxit	1
+HPE MSA 2040 SAN Storage; HPE MSA 1040 SAN Storage; HPE MSA 1050 SAN Storage; HPE MSA 2042 SAN Storage; HPE MSA 2050 SAN Storage; HPE MSA 2052 SAN Storage	1
+Communications Operations Monitor	1
+General Ledger	1
+CodeIgniter4	1
+IE-WL(T)-BL-AP-CL-XX	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music	1
+yetiforcecompany/yetiforcecrm	1
+SpiderControl SCADA Web Server	1
+Cisco MATE Collector	1
+Easy Appointments	1
+ipa	1
+"""Avira Security"" – for Windows"	1
+node-bsdiff-android node module	1
+Monitor Wall	1
+Image Hover Effects Ultimate (Image Gallery, Effects, Lightbox, Comparison or Magnifier)	1
+MailSherlock MSR45/SSR45	1
+Copify	1
+Cisco AMP for Endpoints	1
+GeForce Experience	1
+Intel(R) RAID Web Console 2 Advisory	1
+Baxter Spectrum Wireless Battery Module (WBM)	1
+File Manager Plugin	1
+MP3 Audio Player for Music, Radio & Podcast by Sonaar	1
+Shield Security – Scanners, Security Hardening, Brute Force Protection & Firewall	1
+Yandex Browser for desktop	1
+WhatsApp Business for Android	1
+WL-330NUL	1
+Cognos Business Intelligence	1
+total.js	1
+MT6735, MT6737, MT6739, MT6750, MT6750S, MT6753, MT6755, MT6755S, MT6757, MT6757C, MT6757CD, MT6757CH, MT6758, MT6761, MT6762, MT6763, MT6765, MT6768, MT6769, MT6771, MT6779, MT6781, MT6785, MT6795, MT6797, MT6799, MT6833, MT6853, MT6853T, MT6873, MT6875, MT6877, MT6880, MT6883, MT6885, MT6889, MT6890, MT6891, MT6893, MT8167, MT8168, MT8173, MT8175, MT8185, MT8321, MT8362A, MT8365, MT8385, MT8765, MT8766, MT8768, MT8786, MT8788, MT8789, MT8791	1
+Email Artillery (MASS EMAIL)	1
+libyara	1
+MT6739, MT6761, MT6762, MT6765, MT6768, MT6771, MT6779, MT6785, MT6833, MT6853, MT6873, MT6875, MT6877, MT6883, MT6885, MT6889, MT6891, MT6893, MT8163, MT8167, MT8167S, MT8168, MT8173, MT8175, MT8183, MT8185, MT8195, MT8321, MT8362A, MT8365, MT8385, MT8735A, MT8735B, MT8765, MT8766, MT8768, MT8786, MT8788, MT8789, MT8791, MT8797	1
+Engineering Workflow Management	1
+Internet Explorer 11 on Windows 10 Version 2004 for 32-bit Systems	1
+Open Enclave SDK	1
+vuetify	1
+QTS Login function	1
+ipTIME C200 IP Camera	1
+VPN Plus Server	1
+cri-o	1
+Sidebar Widgets by CodeLights	1
+Auto-Maskin RP210E Versions 3.7 and prior DCU210E Versions 3.7 and prior and Marine Observer Pro (Android App)	1
+nterchange	1
+Magic Post Voice	1
+Financial Services Loan Loss Forecasting and Provisioning	1
+Kantech EntraPass Corporate Edition	1
+solidus	1
+VMware vCenter Server	1
+Modicon Quantum	1
+Checkout Field Editor (Checkout Manager) for WooCommerce	1
+WebSphere Virtual Enterprise	1
+CCA for MTM 4767	1
+Application Performance Management	1
+POWER EGG	1
+ovn-kubernetes	1
+Management Software	1
+APOGEE PXC Series (BACnet)	1
+aad-pod-identity	1
+Bills of Material	1
+SCADA Server 	1
+racket	1
+Cisco Network Services Orchestrator 	1
+HHVM	1
+Quadro, NVS, GeForce (all versions)	1
+Secure Messaging Gateway	1
+Cisco Firepower Threat Defense (FTD) Software 	1
+Samsung Pay Mini	1
+linux-2.6	1
+Skype for Business Server 2015	1
+4CCT-EA6-334126BF	1
+Bixby	1
+SICAM P850	1
+Galaxy Watch3 Plugin	1
+Hancom Office	1
+SIMATIC S7-400 H V4.5 and below CPU family (incl. SIPLUS variants)	1
+Features	1
+SEO Redirection Plugin - 301 Redirect Manager	1
+FL COMSERVER	1
+Joplin	1
+Cisco NX-OS System Software in ACI Mode 	1
+NPort 5210, 5230, and 5232	1
+Intel(R) AMT, Intel(R) ISM versions	1
+ALP-AL00B	1
+Simple Job Board	1
+Sysaid 	1
+MySQL Enterprise Monitor	1
+V-Server Lite	1
+Atlasboard	1
+Featured Image from URL (FIFU)	1
+Cisco Analog Telephone Adaptor (ATA) Software	1
+ABRT	1
+MT5816, MT5835, MT6885, MT6893, MT9900, MT9901, MT9950, MT9969, MT9970, MT9980	1
+Windows 10 Version 1903 for 32-bit Systems	1
+SIMATIC PCS 7 V8.2 and earlier	1
+EOS	1
+SAP Fiori Apps 2.0 for Travel Management in SAP ERP	1
+GOT2000 series GT27, GT25, and GT23	1
+Fortinet FortiProxy, FortiOS	1
+Cloud Automation Manager	1
+gitlab-vscode-extension	1
+Data Tables Generator by Supsystic	1
+S12700, S5700, S7700, S9700	1
+SINEMA Remote Connect Server	1
+Ecava IntegraXor 5.0.413.0	1
+Global Management System (GMS)	1
+PCManager	1
+User Profile Picture	1
+Philips Alice 6 System	1
+TUG Home Base Server	1
+galaxy	1
+Shazam-Android	1
+WordPress Button Plugin MaxButtons (WordPress plugin)	1
+Linux kernel, as used in Ubuntu 18.04 LTS and Ubuntu 18.10	1
+Cisco Prime Collaboration Assurance 	1
+Intel(R) Quartus(R) Prime Pro Edition	1
+Open Management Infrastructure	1
+Puppet Continuous Delivery for Puppet Enterprise (CD4PE)	1
+Autodesk Advanced Steel, Civil 3D, AutoCAD, AutoCAD LT, AutoCAD Architecture, AutoCAD Electrical, AutoCAD Map 3D, AutoCAD Mechanical, AutoCAD MEP, AutoCAD Plant 3D, AutoCAD P&ID	1
+Hot Linked Image Cacher	1
+io.jooby:jooby-netty	1
+Microsoft Graphics Component	1
+Cisco Firepower 2100 Series Security Appliances	1
+Gmedia Photo Gallery	1
+Yet Another bol.com Plugin	1
+GDM3	1
+EcoStruxure Building Operation WebReports V1.9 - V3.1	1
+flux2	1
+mysql-gui-tools	1
+Intel(R) Server Boards, Server Systems and Compute Modules Advisory	1
+wire-ios	1
+crypto/rand	1
+Mulesoft	1
+Cisco Unified Computing System E-Series Software (UCSE) 	1
+NR8000 Series	1
+MELSEC iQ-R series CPU modules R08/16/32/120SFCPU; R08/16/32/120PSFCPU	1
+Request a Quote	1
+Testimonials (WordPress plugin)	1
+SmartOS	1
+Tenable Nessus	1
+Cisco Industrial Ethernet 2000 Switches 15.2(5.4.32i)E2	1
+etcd	1
+Cisco CX Cloud Agent	1
+ZGR TPS200 NG	1
+Climatix POL909 (AWB module)	1
+Synology Download Station	1
+Trend Micro Password Manager	1
+Financial Services Basel Regulatory Capital Internal Ratings Based Approach	1
+MULTIPROG	1
+Schneider Electric Modbus Serial Driver (64 bits) versions prior to V3.20 IE 30, Schneider Electric Modbus Serial Driver (32 bits) versions prior to V2.20 IE 30, and Schneider Electric Modbus Driver Suite versions prior to V14.15.0.0	1
+Integria IMS	1
+DB2 for Linux- UNIX and Windows	1
+Any Hostname	1
+CP-8000 MASTER MODULE WITH I/O -25/+70°C	1
+Safari	1
+Apache Cocoon	1
+Cloud Pak for Applications	1
+Hospitality OPERA 5 Property Services	1
+Apache Xerces C++	1
+NVIDIA Jetson TX2 series, TX2 NX, AGX Xavier series, Xavier NX	1
+Tivoli Monitoring	1
+wp2android-turn-wp-site-into-android-app	1
+Gemalto's HASP SRM, Sentinel HASP and Sentinel LDK products prior to Sentinel LDK RTE	1
+Cisco IOS XE Software 3.16.8S	1
+Host Intrusion Prevention Services (HIPS)	1
+Spring framework	1
+Framework	1
+Financial Services Market Risk Measurement and Management	1
+abcprintf upload-image-with-ajax	1
+Zipato Zipabox Smart Home Controller	1
+MAX PRESENCE,TP3106,TP3206,	1
+Microsoft Edge (EdgeHTML-based) on Windows 10 Version 1809 for 32-bit Systems	1
+GS1900-8 Firmware	1
+python-apt	1
+Harmony/Magelis iPC Series (All Versions), Vijeo Designer (All Versions prior to V6.2 SP11 Multiple HotFix 4), Vijeo Designer Basic (All Versions prior to V1.2.1)	1
+SonicWall NSM On-Prem	1
+PHP Imagick extension	1
+think-helper	1
+node-mpv	1
+ezplatform-graphql	1
+movify-j	1
+vsftpd	1
+Security Directory Server	1
+Retail Merchandising System	1
+Fortinet FortiClient for Windows	1
+C-Bus Toolkit V1.15.7 and prior	1
+Cold Fusion	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wired Infrastructure and Networking	1
+Trend Micro Deep Security	1
+Unity	1
+Scripting	1
+mpath	1
+EMUI;Magic UI;HarmonyOS	1
+Slider Hero with Animation, Video Background & Intro Maker	1
+MT6580, MT6731, MT6735, MT6750S, MT6753, MT6755S, MT6757, MT6757C, MT6757CD, MT6757CH, MT6761, MT6762, MT6763, MT6765, MT6768, MT6769, MT6771, MT6779, MT6781, MT6785, MT6833, MT6853, MT6853T, MT6873, MT6875, MT6877, MT6883, MT6885, MT6889, MT6891, MT6893, MT8127, MT8135, MT8163, MT8167, MT8167S, MT8168, MT8173, MT8175, MT8176, MT8183, MT8312C, MT8312D, MT8321, MT8362A, MT8365, MT8382, MT8385, MT8389, MT8392, MT8392_90, MT8665, MT8685, MT8693, MT8735, MT8735B, MT8735M, MT8752, MT8765, MT8783, MT8785, MT8788	1
+Control Center-I	1
+keycloak-httpd-client-install	1
+Engineering Test Management	1
+ACF Photo Gallery Field	1
+Apollo	1
+Human Resource Management System	1
+INNORIX Agent.exe	1
+Bitbucket Server	1
+mcollective	1
+Testimonial Rotator	1
+Microsoft Exchange Server 2019 Cumulative Update 6	1
+Elastic APM agent for Ruby	1
+Formidable Form Builder – Contact Form, Survey & Quiz Forms Plugin for WordPress	1
+MDT AutoSave	1
+Communications EAGLE LNP Application Processor	1
+polonel/trudesk	1
+emissary	1
+WebSphere Service Registry and Repository	1
+Wyse Proprietary OS (Modern ThinOS)	1
+Telefication	1
+Piwigo	1
+SiteGround Security 	1
+Data Protector	1
+SAP Focused Run (Simple Diagnostics Agent)	1
+spamdyke	1
+markdown-it-decorate	1
+Azure Automation	1
+MT6768, MT6769, MT6781, MT6785, MT6789, MT6833, MT6853, MT6853T, MT6873, MT6875, MT6877, MT6879, MT6883, MT6885, MT6889, MT6893, MT6895, MT6983	1
+Micro Focus Filr 	1
+Crowdsignal Dashboard – Polls, Surveys & more	1
+TYPO3.CMS	1
+ Samsung Update	1
+OceanStor 5600 V3 V300R003C00C10 and earlier versions	1
+FOXMAN-UN	1
+kantan netprint App for iOS	1
+phonenehome	1
+nss	1
+MT6580, MT6731, MT6735, MT6737, MT6739, MT6753, MT6757, MT6757C, MT6757CD, MT6757CH, MT6761, MT6762, MT6763, MT6765, MT6768, MT6769, MT6771, MT6779, MT6781, MT6785, MT6789, MT6833, MT6853, MT6853T, MT6855, MT6873, MT6875, MT6877, MT6879, MT6883, MT6885, MT6889, MT6891, MT6893, MT6895, MT6983, MT8185, MT8321, MT8385, MT8666, MT8667, MT8765, MT8766, MT8768, MT8781, MT8786, MT8788, MT8789, MT8791, MT8791T, MT8797	1
+Moxa NPort	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Voice & Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking	1
+spice	1
+iRecruitment	1
+NVIDIA DGX Servers	1
+CA Client Automation	1
+EBICS	1
+openapi-generator	1
+Microsoft Edge for Android	1
+Eclipse Paho	1
+Exment	1
+Xiaomi Router AX1800,Xiaomi Rourer RM1800	1
+Ethicon Endo-Surgery Generator G11	1
+SonicOS	1
+GE Communicator	1
+Windows Server 2008	1
+Server Status	1
+Windows Shell	1
+Trend Micro Maximum Security	1
+HyperView Player	1
+Add Sidebar	1
+AzeoTech DAQFactory	1
+OpenID Connect Generic Client	1
+rpm	1
+ZXMP M721 DX	1
+MT6580, MT6731, MT6735, MT6737, MT6739, MT6753, MT6757, MT6757C, MT6757CD, MT6757CH, MT6761, MT6762, MT6763, MT6765, MT6768, MT6769, MT6771, MT6779, MT6781, MT6785, MT6789, MT6833, MT6853, MT6853T, MT6855, MT6873, MT6875, MT6877, MT6879, MT6883, MT6885, MT6889, MT6891, MT6893, MT6895, MT6983, MT8167, MT8168, MT8173, MT8185, MT8321, MT8362A, MT8365, MT8385, MT8666, MT8675, MT8765, MT8766, MT8768, MT8781, MT8786, MT8788, MT8789, MT8791, MT8791T, MT8797	1
+OnePress Social Locker	1
+Samsung pass	1
+MT6761, MT6765, MT6768, MT6771, MT6779, MT6781, MT6785, MT6833, MT6853, MT6875, MT6877, MT6879, MT6885, MT6893, MT6895, MT6983	1
+Easy Pricing Tables (WordPress plugin)	1
+QRadar Wincollect	1
+Stockists Manager for Woocommerce	1
+SICK FTMg	1
+simple-git	1
+"SIMATIC HMI Comfort Outdoor Panels V15 7\"" & 15\"" (incl. SIPLUS variants)"	1
+HtmlSanitizer	1
+WD Discovery	1
+SecureSphere	1
+Hexo	1
+Smart Lock and Connect Wi-Fi Bridge App	1
+HtmlUnit	1
+unisharp/laravel-filemanager	1
+Duplicate Page	1
+evolution-data-server3	1
+Firepower 4100 Series Next-Generation Firewalls	1
+PowerSCADA Anywhere	1
+Cisco IOS XE Software 3.2.0SG	1
+Symantec Endpoint Protection Manager	1
+Multiple I-O DATA network camera products	1
+wbce/wbce_cms	1
+Post SMTP Mailer/Email Log	1
+pycord	1
+Cram Social Program Management	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables	1
+Microsoft Windows 7 SP1, Windows Server 2008 SP2 and R2 SP1, Windows 8.1 and Windows RT 8.1, Windows Server 2012 and R2, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016.	1
+HMI EA9	1
+Cisco WebEx WRF Player 	1
+SmartThings	1
+Cisco DNA Spaces 	1
+Intel® RAID Web Console 3 (RWC3) for Windows	1
+Boot Camp	1
+Foundry Issues	1
+Windows Scripting Host	1
+iPanorama 360 WordPress Virtual Tour Builder	1
+Cisco Webex Productivity Tools 	1
+Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables	1
+Comic Book Management System	1
+Antivirus Plus	1
+SDK	1
+ceph-iscsi-cli	1
+HCL Commerce	1
+Nextcloud Calendar application	1
+keymaker	1
+Financial Transaction Manager	1
+libc library	1
+Dell PowerConnect	1
+Hermes	1
+Rational Rhapsody Design Manager	1
+RevoWorks Browser	1
+ZXHN F677, ZXHN F477	1
+mariadb node module	1
+Gallery from files	1
+WP Users Exporter	1
+thorsten/phpmyfaq	1
+WebsiteBaker	1
+DoseWise Portal	1
+GE PACSystems RX3i CPE305/310 version 9.20 and prior RX3i CPE330 version 9.21 and prior RX3i CPE 400 version 9.30 and prior PACSystems RSTi-EP CPE 100 all versionsPACSystems CPU320/CRU320 RXi all versions	1
+InfoSphere Master Data Management	1
+ManageOne	1
+Cybozu Remote Service	1
+Indoor IP Camera C1 Series	1
+blueman	1
+Spectrum Protect Operations Center	1
+Apache Directory Studio	1
+Microsoft Server	1
+NZXT	1
+view_component	1
+CF NFS volume release	1
+Adobe Flash Player 24.0.0.186 and earlier.	1
+Intel(R) PROSet/Wireless Wi-Fi and Killer(TM) Wi-Fi in Windows 10 and 11	1
+NS WooCommerce Watermark	1
+Login as User or Customer (User Switching)	1
+zend-blog-number-2	1
+Video Gallery - Vimeo and YouTube Gallery	1
+Contact Form & Lead Form Elementor Builder	1
+Moxa ioLogik 2500 series firmware, Version 3.0 or lower, IOxpress configuration utility, Version 2.3.0 or lower	1
+Cisco IOS Software	1
+SonicWall Global VPN Client	1
+Microsoft Dynamics 365 Business Central 2022 Release Wave 1	1
+BlueSpice	1
+Fortinet FortiSwitch	1
+silverwaregames-io-issue-tracker	1
+Leptonica	1
+Sunshine Photo Cart	1
+Apache Tika	1
+Skype	1
+GoURL Wordpress Plugin	1
+Intel(R) Ethernet ixgbe driver for Linux	1
+PageWriter TC10, TC20, TC30, TC50, TC70 Cardiographs	1
+Webba Booking (WordPress plugin)	1
+Azure Guest Configuration	1
+CorreosExpress – Shipping Management – Tags	1
+Citrix SD-WAN Center	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables	1
+Useful Banner Manager	1
+P20	1
+HCL Domino	1
+Nextcloud iOS app (it.twsweb.Nextcloud)	1
+Microsoft Outlook for Android	1
+Download Plugin	1
+EMG12	1
+Microsoft Office 2016 for Mac	1
+PopUp Printer Client	1
+P30, P30 Pro, Honor V20	1
+Trend Micro InterScan Messaging Security Virtual Appliance (IMSVA)	1
+Simple 301 Redirects by BetterLinks	1
+NetIQ Identity Manager	1
+Phoenixcoin	1
+My Site Audit	1
+openshift	1
+Intel(R) Quartus Prime Pro and Standard editions	1
+Dell Encryption Enterprise	1
+Camstar Enterprise Platform	1
+Emptoris Supplier Lifecycle Management	1
+Modern Events Calendar Lite (WordPress plugin)	1
+Cisco ASR 5000 Series Software 	1
+File Manager	1
+EdgeMAX EdgeRouter	1
+myCred – Points, Rewards, Gamification, Ranks, Badges & Loyalty Plugin	1
+Browser	1
+Advan VD-1 firmware	1
+iFeature Slider (WordPress plugin)	1
+Lenovo xClarity Administrator	1
+protobuf-cpp	1
+XML2Dict	1
+HPE Integrated Lights-Out 4 (iLO 4), HPE Integrated Lights-Out 5 (iLO 5)	1
+Windows Kernel-Mode Drivers	1
+NVIDIA SHIELD TV	1
+WordPress Related Posts	1
+BIND	1
+smarty	1
+slpjs	1
+iProcurement	1
+jackson-databind	1
+Eclipse Che	1
+Modicon M580 CPU (part numbers BMEP* and BMEH*, all versions), Modicon M340 CPU (part numbers BMXP34*, all versions), Modicon MC80 (part numbers BMKC80*, all versions), Modicon Momentum Ethernet CPU (part numbers 171CBU*, all versions), PLC Simulator for EcoStruxureª Control Expert, including all Unity Pro versions (former name of EcoStruxureª Control Expert, all versions), PLC Simulator for EcoStruxureª Process Expert including all HDCS versions (former name of EcoStruxureª Process Expert, all versions), Modicon Quantum CPU (part numbers 140CPU*, all versions), Modicon Premium CPU (part numbers TSXP5*, all versions)	1
+Palo Alto Networks Twistlock	1
+keycloak REST API	1
+Apache ShardingSphere ElasticJob-UI	1
+ScreenOS	1
+SAP 3D Visual Enterprise Author	1
+proxy.js node module	1
+tiny-csrf	1
+Creative Cloud Desktop Application	1
+Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables	1
+FreeBSD and OpenBSD ftpd service	1
+Temporary Login Without Password	1
+Easy Social Icons	1
+Google Chrome prior to 56.0.2924.76 for Linux, Windows and Mac	1
+Oculus Desktop	1
+MuleSoft Mule CE/EE	1
+EDK II	1
+NVIDIA Virtual GPU Software	1
+Installed Base	1
+BigInsights	1
+backstage	1
+Plum A+ Infusion System	1
+MT6771, MT6779, MT6785, MT6853, MT6853T, MT6873, MT6877, MT6885, MT6891, MT6893, MT8168, MT8175, MT8183, MT8365, MT8385, MT8788	1
+beancount/fava	1
+Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables	1
+Intel(R) SGX SDK software	1
+PeopleSoft Enterprise FIN Receivables	1
+Barzahlen Payment Module PHP SDK	1
+Snapdragon Auto, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Mobile, Snapdragon Voice & Music	1
+MC Works64	1
+vhost	1
+meetecho/janus-gateway	1
+EcoStruxureª Operator Terminal Expert runtime (Vijeo XD)	1
+Curam Social Program Management	1
+Garrett Metal Detectors	1
+WP Zillow Review Slider	1
+nflpick-em.com	1
+Amazon Kindle e-reader	1
+magento-lts	1
+pesign	1
+DiscoTOC	1
+elrond-go	1
+EMC Avamar Server 7.1.x, 7.2.x, 7.3.x, 7.4.x, 7.5.0, EMC NetWorker Virtual Edition (NVE) 9.0.x, 9.1.x, 9.2.x, EMC Integrated Data Protection Appliance 2.0	1
+Certain HP inkjet printers, HP LaserJet Pro printers, HP PageWide Pro printers.	1
+Cloud Application Performance Management	1
+Office Online Server	1
+Patreon WordPress	1
+Microsoft Dynamics NAV 2018	1
+ZXHN H108N	1
+medialize/uri.js	1
+Allen-Bradley	1
+QVR Elite	1
+Testimonials	1
+elasticsearch	1
+Studio onsite	1
+Eaton HMiSoft VU3 (HMIVU3 runtime not impacted)	1
+DENSHI NYUSATSU CORE SYSTEM	1
+Xiaomi Router AX3600	1
+Fortinet FortiPortal	1
+TIBCO Enterprise Runtime for R - Server Edition	1
+Depot Repair	1
+Intel(R) NUCs	1
+Avast and AVG Antivirus	1
+dpdk	1
+SAP Business Objects Business Intelligence Platform	1
+FiboSearch – Ajax Search for WooCommerce	1
+Installer of electronic tendering and bid opening system	1
+Ocularis	1
+Tivoli Netcool Impact	1
+LINE(Android)	1
+Sophos Firewall	1
+NUUO CMS	1
+js-compute-runtime	1
+Solar-Log	1
+libjpeg-turbo	1
+markdown-it-highlightjs	1
+SIMATIC CP 443-1 OPC UA	1
+1st Gen AMD EPYC™	1
+Reason S20 Ethernet Switch	1
+Honor V20	1
+Adobe Dreamweaver	1
+YouPHPTube	1
+Dell BSAFE Crypto-C Micro Edition	1
+TeamCity	1
+Cisco IOS and IOS XE Software	1
+Enterprise Manager for Fusion Middleware	1
+OP-TEE	1
+Backblaze	1
+Intel(R) Security Library	1
+Intel Unite(R) Client for Windows	1
+com.twelvemonkeys.imageio:imageio-metadata	1
+lxml/lxml	1
+flatpak	1
+bookwyrm	1
+Intel(R) Server Platform Services (SPS), Intel (R) Trusted Execution Engine Interface (TXE)	1
+node-prompt-here	1
+Simple DirectMedia Layer	1
+Skyhigh Secure Web Gateway (SWG)	1
+SuperCluster Specific Software	1
+Crowd	1
+Desigo Insight	1
+Adobe Creative Cloud Desktop Application	1
+Cisco Common Services Platform Collector Software 	1
+content node module	1
+Pandora FMS	1
+Text	1
+Sal	1
+Authentication Manager	1
+AirVelocity	1
+MT6833, MT6853, MT6853T, MT6873, MT6875, MT6877, MT6883, MT6885, MT6889, MT6893	1
+BigFileAgent	1
+Popup Anything – A Marketing Popup	1
+Toshiba Home gateway HEM-GW16A and Toshiba Home gateway HEM-GW26A	1
+Report	1
+Symantec Identity Management And Governance	1
+lodash	1
+Menu Item Visibility Control	1
+Microsoft Edge, ChakraCore	1
+Cisco WebEx Meetings Server	1
+Apache Camel	1
+Symantec Encryption Management Server (SEMS)	1
+Eclipse OpenJ9	1
+PhpIPAM	1
+Ninja Forms Contact Form – The Drag and Drop Form Builder for WordPress	1
+Cisco Prime Collaboration Provisioning 10.6	1
+Multiple Routers	1
+IPS Module;NGFW Module;NIP6600;NIP6800;Secospace USG6300;Secospace USG6500;Secospace USG6600	1
+RUGGEDCOM ROS M2100	1
+NodeBB	1
+httplib2	1
+Snapdragon Compute, Snapdragon Connectivity, Snapdragon Mobile	1
+redhat-certification	1
+"NZXT"""	1
+Desktop Client	1
+FLEXCUBE Private Banking 2.0.1;2.2.0;12.0.1	1
+SAP NetWeaver Developer Studio (NWDS)	1
+GurumDDS	1
+Smart Battery A2-25DE	1
+sectool	1
+qinserve node module	1
+Advantech iView	1
+Door Access Control and Personnel Attendance Management system	1
+WECON PLC Editor	1
+Command Centre	1
+Trend Micro Dr. Safety for Android (Consumer)	1
+Cisco Registered Envelope Service	1
+io.socket:socket.io-client	1
+AdminLTE	1
+Cloud Controller	1
+RT-AX56U	1
+protobufjs node module	1
+a+HRD	1
+composer	1
+DAP-1880AC	1
+Secure API Manager (SAPIM).	1
+Shaarli	1
+FileCloud	1
+Bravo Mobile Application	1
+WebSphere Commerce Enterprise	1
+Carousel, Slider, Gallery by WP Carousel	1
+Adobe Flash Player 23.0.0.205 and earlier, 11.2.202.643 and earlier	1
+Car Dealer (Dealership) and Vehicle sales WordPress Plugin	1
+Edge Client for Windows	1
+Wholesale Market for WooCommerce	1
+Jira Service Management Server	1
+metabase	1
+Machine automation controller NJ series, Machine automation controller NX series, Automation software 'Sysmac Studio', and Programmable Terminal (PT) NA series	1
+SonicWall SMA100	1
+Jannah	1
+Internet Security	1
+Intel(R) DSA	1
+MaxBoard	1
+Job Board Vanila Plugin	1
+Apache Commons IO	1
+Symantec Messaging Gateway (SMG)	1
+Crestron AirMedia	1
+Citrix Application Delivery Controller (Citrix ADC) and Citrix Gateway	1
+Cisco Unified Communications Manager 	1
+SIMATIC STEP 7 (TIA Portal) and WinCC (TIA Portal) V10, V11, V12, SIMATIC STEP 7 (TIA Portal) and WinCC (TIA Portal) V13, SIMATIC STEP 7 (TIA Portal) and WinCC (TIA Portal) V14, SIMATIC STEP 7 (TIA Portal) and WinCC (TIA Portal) V15	1
+Duke-L09	1
+Contact Form 7 Captcha	1
+connection-tester	1
+VMware ESXi , Workstation, Fusion and VMware Cloud Foundation	1
+hedgedoc	1
+Sleipnir 4 Black Edition for Mac	1
+Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity	1
+Intel(R) Server Board M10JNP2SB	1
+enterprise travel management system	1
+Calibre	1
+Skype Extension for Chrome	1
+LOGO! 8 BM (incl. SIPLUS variants)	1
+"Trend Micro Apex One
+"	1
+Windows 10 Version 20H2 for 32-bit Systems	1
+SIPROTEC 5 relays with CPU variants CP050	1
+Installer of Flets Easy Setup Tool	1
+ceph	1
+unicode node module	1
+HP OfficeJet Printer; HP PageWide Printer	1
+Internet Explorer 10	1
+MySQL Connectors	1
+Enable Media Replace	1
+i-FILTER	1
+hslogin2.dll	1
+Import any XML or CSV File to WordPress	1
+CentreCOM AR260S V2	1
+coturn	1
+YOP Poll	1
+Tenable.sc	1
+Cisco Meeting Server (CMS) before 2.0.6 and Acano Server before 1.8.18 and 1.9.x before 1.9.6	1
+Security Verify Bridge	1
+SAP BusinessObjects Business Intelligence Platform	1
+((OTRS)) Community Edition	1
+Samsung Checkout	1
+Data Integrator	1
+ARK	1
+Tenable Nessus AMI	1
+Red-DiscordBot	1
+Cacti	1
+PowerShell Core	1
+Business Directory Plugin – Easy Listing Directories for WordPress	1
+PB610 Panel Builder 600	1
+OpenShift	1
+ARI Fancy Lightbox – WordPress Popup	1
+Google Chrome prior to 55.0.2883.75 for Windows	1
+Windows 10 Version 2004 for x64-based Systems	1
+SINEC NMS	1
+SAP NetWeaver Development Infrastructure (Notification Service)	1
+Cisco MATE Live	1
+Drawings SDK	1
+Adobe RoboHelp RH2017.0.1 and earlier versions	1
+xcftools	1
+Development/Evaluation Kits for PROFINET IO: EK-ERTEC 200	1
+Banking Payments	1
+Simple and Nice Shopping Cart Script	1
+Cisco DNA Spaces Connector 	1
+smokescreen	1
+APOGEE MBC (PPC) (BACnet)	1
+Adobe Flash Player 30.0.0.134 and earlier	1
+Duplicate Page or Post	1
+Elastic X-Pack Security	1
+Hubs Cloud	1
+nodejs-http-proxy-agent	1
+Microfinance Management System	1
+Community Collections	1
+polipo	1
+AVEVA System Platform	1
+System.IO.Pipelines	1
+typo3	1
+WP Visitor Statistics (Real Time Traffic)	1
+Tiki-Wiki CMS	1
+vdsm	1
+binary	1
+Pentaho Business Analytics Server	1
+elgg/elgg	1
+NUC Advisory	1
+389-ds-base	1
+E-Business Suite Secure Enterprise Search	1
+Cisco Wide Area Application Services (WAAS) before 5.3(5g)1 and 6.x before 6.2(2.32)	1
+Dell Networking OS10	1
+SC9863A/SC9832E/SC7731E/T610/T310/T606/T760/T610/T618/T606/T612/T616/T760/T770/T820/S8019	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile	1
+Advanced Custom Fields and Advanced Custom Fields Pro	1
+TRÅDFRI gateway system	1
+Pulse Connect Secure / Pulse Policy Secure	1
+mediawiki-extensions-ShortDescription	1
+Experion PKS	1
+BlueZ	1
+Omron CX-Supervisor	1
+Adobe Flash Player 29.0.0.113 and earlier versions	1
+yiisoft/yii2	1
+vGPU software (guest driver) - Linux, vGPU software (Virtual GPU Manager), NVIDIA Cloud Gaming (guest driver), NVIDIA Cloud Gaming (Virtual GPU Manager)	1
+synapse	1
+Facility Explorer SNC Series Supervisory Controllers (F4-SNC)	1
+Cloud Pak for Data	1
+NIP6800;Secospace USG6600;USG9500	1
+bash	1
+PingFederate	1
+HUAWEI Mate 20;HUAWEI Mate 30 Pro	1
+unzip	1
+Guardium Data Encryption	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wired Infrastructure and Networking	1
+Draytek VigorConnect	1
+PatchJGD (PatchJGD101.EXE)	1
+effect	1
+Amazon Music Player	1
+Nessus	1
+QRadar Network Security	1
+IceWall SSO Dgfw	1
+ZXV10 B860A	1
+goobi-viewer-core	1
+Cisco Session Initiation Protocol (SIP) Software 	1
+kill-process-on-port	1
+Mongoose-OS	1
+diez	1
+Mortgage Calculators WP	1
+Spectrum LSF	1
+Access analysis CGI An-Analyzer	1
+Intel(R) AMT and Intel(R) CSME	1
+Vigilant Software Suite (Mastermed Dashboard)	1
+Hyperion Planning	1
+getgrav/grav	1
+Samsung Internet	1
+Equation Editor	1
+html-pages	1
+Studyplus App	1
+Microsoft .NET Framework 3.5 on Windows 10 Version 1909 for x64-based Systems	1
+ros	1
+zrender	1
+Magento 1 Magento 2	1
+kenny2automate	1
+Universal Robots Robot Controllers CB 3.1	1
+Storage Manager	1
+OMGF | Host Google Fonts Locally	1
+D-Link Router DIR-895L	1
+Dell EMC NetWorker	1
+wordpress-develop	1
+ABB eSOMS	1
+CPP Firmware	1
+Listeo	1
+Smartlink, PowerTag, and Wiser Series Gateways (see security notification for version information)	1
+SUSE Linux Enterprise Server 15	1
+Microsoft Dynamics 365 (on-premises) version 8	1
+Snapdragon Automobile, Snapdragon Mobile	1
+Eclipse Hawkbit	1
+Adobe Photoshop CC 2018 before 19.1.6 and Photoshop CC 2017 before 18.1.6	1
+WPFront Scroll Top	1
+Check Point Endpoint Security client for Windows	1
+VMware Workstation	1
+apicast	1
+axios/axios	1
+Hanwha Techwin Smartcams	1
+HCL OneTest Server	1
+SAP Business Objects Business Intelligence Platform (CrystalReports WebForm Viewer)	1
+Asylo	1
+Go JOSE All versions before 1.0.5	1
+Hospitality Guest Access	1
+Synology Router Manager (SRM)	1
+W3 Total Cache	1
+SCADA WebServer	1
+MikroTik WinBox	1
+Capital VSTAR	1
+Kakadu SDK	1
+Unity8	1
+Daily Prayer Time	1
+Dell EMC RecoverPoint	1
+Micro Focus Data Protector	1
+Computerinsel Photoline	1
+libapreq2	1
+PI Web API	1
+CONPROSYS HMI System (CHS)	1
+Microsoft Endpoint Configuration Manager	1
+FLEXCUBE Direct Banking	1
+SAP ERP Client for E-Bilanz 1.0	1
+Apache Commons Compress	1
+Snapdragon Auto, Snapdragon Connectivity, Snapdragon Mobile, Snapdragon Wearables	1
+Hubshare	1
+Mobile browser color select	1
+Quoting	1
+"""i-filter 6.0 installer"""	1
+python	1
+Chat	1
+MT6833, MT6853, MT6873, MT6877, MT6883, MT6893, MT8791, MT8797	1
+PlanSo Forms	1
+supybot-fedora	1
+Fortinet FortiOS, FortiProxy, FortiSwitchManager	1
+Cybozu Desktop for Windows	1
+Open Dental	1
+Trend Micro Apex One, Trend Micro OfficeScan (OSCE), Trend Micro Worry-Free Business Security (WFBS)	1
+OTRSCIsInCustomerFrontend 	1
+Windows 10 Version 1909 for x64-based Systems	1
+CP Image Store with Slideshow	1
+infinispan	1
+openproject	1
+Better Messages (WordPress plugin)	1
+Intel Xeon Processor	1
+Rational DOORS Next Generation	1
+VMware ESXi, Workstation, Fusion	1
+LibreSSL	1
+usbredir	1
+SIMATIC S7-400 H V6 CPU family (incl. SIPLUS variants)	1
+all versions of the ASA CX Context-Aware Security module	1
+cli	1
+WG-C10	1
+Aruba SD-WAN Software and Gateways; Aruba Operating System Software	1
+Pidgin	1
+Alojapro Widget	1
+Cisco Adaptive Security Device Manager (ASDM) 	1
+Zone Director Controller Firmware	1
+Automation Workstream Services	1
+hisiphp	1
+ThinkPad	1
+SAP NetWeaver AS ABAP	1
+xd-testing node module	1
+VirusScan Enterprise Linux (VSEL)	1
+Apartment Visitor Management System	1
+Sales for Handhelds	1
+Pivotal RabbitMQ 3.x before 3.5.8 and 3.6.x before 3.6.6; RabbitMQ for PCF 1.5.x before 1.5.20, 1.6.x before 1.6.12 and 1.7.x before 1.7.7	1
+kromitgmbh/titra	1
+Linux kernel	1
+Comment Engine Pro (WordPress plugin)	1
+Keynote	1
+lite-server	1
+Content Manager	1
+October	1
+clickhouse	1
+Firefox for Android	1
+Access CX App for Android	1
+nodejs-braces	1
+corenlp-js-prefab	1
+PTW-WMS1	1
+MAIL2000	1
+basercms	1
+Emptoris Sourcing	1
+sqlite	1
+Quiz And Survey Master – Best Quiz, Exam and Survey Plugin for WordPress	1
+sentry	1
+SAP NetWeaver	1
+RabbitMQ for Pivotal Platform	1
+GateManager	1
+Applications Manager	1
+CR6	1
+gogs/gogs	1
+ClearSCADA	1
+glibc	1
+Business Automation Workflow	1
+OpENer EtherNet/IP	1
+Intel® PROSet/Wireless WiFi Software	1
+NVR50XX, VR52XX, VR54XX, VR58XX	1
+Samsung Wearable Devices	1
+P30,P30 Pro	1
+Advantech WebAccess Node	1
+snyk-broker	1
+Companion App	1
+EMQ X Broker	1
+@tsed/core	1
+Puppet Enterprise	1
+SEO Panel	1
+Attendance Manager	1
+Intel(R) Optane(TM) PMem versions	1
+libuser	1
+CSV+	1
+WebSphere Application Server Liberty	1
+scm	1
+Platform Security for Java	1
+Metasys	1
+Orbit Fox by ThemeIsle	1
+FortiPortal	1
+Microsoft Visual Studio 2017 version 15.9 (includes 15.1 - 15.8)	1
+MF286R,MF289D	1
+poi-scratchpad	1
+thunderdome-planning-poker	1
+SAP Knowledge Warehouse	1
+Windows Hyper-V	1
+versions	1
+sydent	1
+NoMachine App for Android	1
+Zoom Client for Meetings (for Android, iOS, Linux, macOS, and Windows)	1
+Feathers-Sequalize	1
+Security Verify Access	1
+guest-oslogin	1
+Foxit PhantomPDF	1
+openslp-dfsg	1
+Studio 5000 Logix Emulate	1
+Movable Type XMLRPC API	1
+bookstackapp/bookstack	1
+NVIDIA Cloud Gaming (guest driver)	1
+treekill	1
+Zabbix	1
+Media Server	1
+VIE-L09	1
+Joruri CMS 2017	1
+Pricing Tables WordPress Plugin – Easy Pricing Tables	1
+immer	1
+Control Desk	1
+TYPO3	1
+tuleap	1
+Dell Command Update (DCU)	1
+ePolicy Orchestrator (ePO)	1
+jgraph/drawio	1
+bfabiszewski/libmobi	1
+HPE OneView	1
+JP1/Automatic Operation	1
+Adobe Flash Player 25.0.0.127 and earlier.	1
+https://github.com/rails/activeresource	1
+Mambo CMS	1
+Trend Micro Antivirus for Mac	1
+Apache UIMA	1
+spice-vdagent	1
+Hyperion Financial Reporting	1
+Aspera Streaming	1
+Resident Download Manager	1
+Go	1
+CyberArk Identity	1
+Cisco Hosted Collaboration Mediation Fulfillment before 11.5(0.98000.216)	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables	1
+Handsome Testimonials & Reviews	1
+php-shellcommand	1
+Sielco Sistemi Winlog SCADA Software prior to Version 3.02.01	1
+RUGGEDCOM ROX I All versions	1
+MaaS360 DTM	1
+Bitcoin Satoshi Tools :  Faucets, Visitor Rewarder, Satoshi Games, Referral Program	1
+AR120-S,AR1200,AR1200-S,AR150,AR150-S,AR160,AR200,AR200-S,AR2200,AR2200-S,AR3200,AR510,NetEngine16EX,SMC2.0,SRG1300,SRG2300,SRG3300	1
+WooCommerce Stock Manager	1
+Intel(R) SGX SDK	1
+libetpan	1
+Crimson 3.1	1
+Security Guardium Big Data Intelligence	1
+Hyperion Analytic Provider Services	1
+helpu.ocx	1
+Intel(R) Remote Displays SDK Advisory	1
+busybox	1
+jikes node module	1
+BuddyPress	1
+Windows 10 Version 2004 for ARM64-based Systems	1
+Kenexa LMS on Cloud	1
+Membership Simplified	1
+topthink/framework	1
+TMS300 CS	1
+dojo	1
+ProfilePress	1
+McAfee Endpoint Security (ENS) for WIndows	1
+CLICK PLC CPU Modules: C0-1x CPUs	1
+janeczku/calibre-web	1
+<R5300G4?R8500G4?R5500G4>	1
+Apache IoTDB	1
+Child Theme Generator	1
+Intel(R) ADAS IE	1
+Dimension	1
+PeopleSoft Enterprise HCM eProfile Manager Desktop	1
+Citrix ADC, Citrix Gateway	1
+WPIDE – File Manager & Code Editor (WordPress plugin)	1
+Storage Manager XN8008T	1
+Hindu Matrimonial Script	1
+LoginPress | Custom Login Page Customizer (WordPress plugin)	1
+PingID Integration for Windows Login	1
+HPE Apollo 70 System	1
+Cisco Mobility Express 2800 and 3800 Series Wireless LAN Controllers	1
+mongo-express	1
+Modicon Premium, Modicon Quantum, Modicon M340, BMXNOR0200	1
+Serv-U	1
+ZenTao Pro	1
+Social Media Feather (WordPress plugin)	1
+Parrot ANAFI	1
+mssql-node node module	1
+libsoup	1
+Snapdragon IoT, Snapdragon Mobile	1
+Products.isurlinportal	1
+OSIsoft PI Vision	1
+McAfee Agent for Windows	1
+dolibarr	1
+Earth Pro	1
+Intel(R) PROSet/Wireless WiFi products	1
+Cisco NX-OS Software	1
+MT6580, MT6735, MT6739, MT6757, MT6761, MT6762, MT6763, MT6765, MT6768, MT6769, MT6771, MT6779, MT6781, MT6785, MT6833, MT6853, MT6855, MT6873, MT6875, MT6877, MT6879, MT6883, MT6885, MT6889, MT6893, MT6895, MT6983, MT8168, MT8173, MT8185, MT8321, MT8365, MT8385, MT8765, MT8766, MT8768, MT8786, MT8788, MT8789, MT8791, MT8797	1
+YaySMTP – Simple WP SMTP Mail	1
+Nginx Controller	1
+Foxit PDF Reader	1
+WADWAZ-1	1
+djvulibre	1
+Simple Quotation	1
+PukiWiki	1
+Virtual Network Function (VNF) Element Manager	1
+ZTE F680	1
+RUGGEDCOM RM1224	1
+SAP NetWeaver AS for Java (Applications based on HTMLB for Java)	1
+XtremIO	1
+Admin Menu Editor	1
+Psychological tests & quizzes (WordPress plugin)	1
+selenium-standalone-painful node module	1
+FusionAccess FusionAccess V100R005C10, FusionAccess V100R005C20	1
+Auto-hyperlink URLs	1
+Eclipse Jetty	1
+PricePoint	1
+COMOS V10.2	1
+haproxy	1
+EAP Controller	1
+Cisco Intersight Virtual Appliance 	1
+shopizer	1
+Insight Agent	1
+Welcart e-Commerce (WordPress plugin)	1
+HPE Performance Center	1
+kirby	1
+i2 Analyst Notebook	1
+Mitsubishi Electric MELSEC iQ-F series FX5U(C) CPU; Mitsubishi Electric MELSEC iQ-F series FX5UJ CPU; Mitsubishi Electric MELSEC iQ-R series R00/01/02CPU; Mitsubishi Electric MELSEC iQ-R series R04/08/16/32/120(EN)CPU; Mitsubishi Electric MELSEC iQ-R series R08/16/32/120SFCPU; Mitsubishi Electric MELSEC iQ-R series R08/16/32/120PCPU; Mitsubishi Electric MELSEC iQ-R series R08/16/32/120PSFCPU; itsubishi Electric MELSEC iQ-R series RJ71C24(-R2/R4); Mitsubishi Electric MELSEC iQ-R series RJ71EN71; Mitsubishi Electric MELSEC iQ-R series RJ71GF11-T2; Mitsubishi Electric MELSEC iQ-R series RJ71GP21(S)-SX; Mitsubishi Electric MELSEC iQ-R series RJ72GF15-T2; Mitsubishi Electric MELSEC Q series Q03UDECPU; Mitsubishi Electric MELSEC Q series Q04/06/10/13/20/26/50/100UDEHCPU; Mitsubishi Electric MELSEC Q series Q03/04/06/13/26UDVCPU; Mitsubishi Electric MELSEC Q series Q04/06/13/26UDPVCPU; Mitsubishi Electric MELSEC Q series QJ71C24N(-R2/R4); Mitsubishi Electric MELSEC Q series QJ71E71-100; Mitsubishi Electric MELSEC L series L02/06/26CPU(-P); Mitsubishi Electric MELSEC L series L26CPU-(P)BT; Mitsubishi Electric MELSEC L series LJ71C24(-R2); Mitsubishi Electric MELSEC L series LJ71E71-100; Mitsubishi Electric MELSEC L series LJ72GF15-T2	1
+rsync	1
+otp-generator	1
+Beaver Builder – WordPress Page Builder (WordPress plugin)	1
+P9,Honor 6 Versions before EVA-AL10C00B192,Versions before H60-L02_6.10.1	1
+Kea	1
+Intel(R) PROSet/Wireless WiFi software installer for Windows 10	1
+RSA BSAFE Crypto-C Micro Edition	1
+Advanced Secure Gateway (ASG) and ProxySG	1
+Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Wearables	1
+Cati	1
+Cisco IOS XE Software 3.7.0S	1
+ e-Design	1
+openEuler 22.03 LTS	1
+SICAM MMU	1
+Delta Industrial Automation DOPSoft	1
+LiveSync for WordPress	1
