@@ -6,3 +6,6 @@
 /runs
 /log/**
 !/log/readme.md
+/test.py
+/actions/*/*.npy
+/.vscode

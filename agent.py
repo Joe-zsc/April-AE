@@ -2,12 +2,10 @@
 from RL_Model.config import  SAC_Config
 import sys
 import os
-import logging
-import time
-curr_path = os.path.dirname(__file__)
-parent_path = os.path.dirname(curr_path)
-sys.path.append(curr_path)
-sys.path.append(parent_path)  # add current terminal path to sys.path
+# curr_path = os.path.dirname(__file__)
+# parent_path = os.path.dirname(curr_path)
+# sys.path.append(curr_path)
+# sys.path.append(parent_path)  # add current terminal path to sys.path
 
 
 class Agent():

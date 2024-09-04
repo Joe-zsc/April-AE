@@ -1,32 +1,13 @@
 import configparser
 import logging
-import IPy
 import time
 import os
 from pprint import pprint, pformat
 import pandas as pd
-import csv
 from pathlib import Path
 
 
-class IP:
-    def __init__(self, ip, netmask):
-        self.address = ip
-        self.net_mask = netmask
-
-    def subnet(self):
-        return IPy.IP(self.address + '/' + self.net_mask, make_net=True)
-
-    @classmethod
-    def checkIP(cls, ip_address):
-        try:
-            IPy.IP(ip_address)
-            return True
-        except Exception as e:
-            print(str(ip_address) + "不是ip地址,异常原因：" + str(e))
-            return False
-
-
+os.environ["WANDB_BASE_URL"] = "https://api.wandb.ai"
 class Host_info:
     def __init__(self, ip):
         self.ip: str = ip
@@ -102,7 +83,7 @@ class UTIL:
     def show_credit(cls):
         credit = u"""
 + -- --=[ APRIL\t: Autonomous Penetesting based on ReInforcement Learning             ]=-- -- +
-+ -- --=[ Author\t: NUDT-HFBOT Team                                   ]=-- -- +
++ -- --=[ Author\t: HFBOT                                  ]=-- -- +
 + -- --=[ Website\t: https://gitee.com/JoeSC/April-AE  ]=-- -- +
     """
         print(credit)
