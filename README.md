@@ -12,7 +12,6 @@ cd April-AE
 pip install -r requirment.txt
 ```
 
-
 ## Getting Started
 
 ### Prepare the embedding models
@@ -51,6 +50,5 @@ The learning curves can be seen via the Tensorboard:
 ```bash
 tensorboard --logdir runs --host localhost --port 6006
 ```
-
 
 ## Citation
