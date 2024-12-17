@@ -69,3 +69,17 @@ tensorboard --logdir runs --host localhost --port 6666
 **NOTE:** This project is for educational purpose only and the author does not condone any illegal use. Use as your own risk.
 
 Please cite our paper at:
+
+```
+@ARTICLE{April-AE,
+  author={Zhou, Shicheng and Liu, Jingju and Lu, Yuliang and Yang, Jiahai and Hou, Dongdong and Zhang, Yue and Hu, Shulong},
+  journal={IEEE Transactions on Dependable and Secure Computing}, 
+  title={APRIL: towards Scalable and Transferable Autonomous Penetration Testing in Large Action Space via Action Embedding}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-17},
+  keywords={Training;Reinforcement learning;Testing;Scalability;Planning;Manuals;Semantics;Penetration testing;Network security;Cyberspace;Penetration testing;reinforcement learning;large action space;policy transfer;action embedding},
+  doi={10.1109/TDSC.2024.3518500}}
+
+```
