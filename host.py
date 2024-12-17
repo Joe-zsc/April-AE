@@ -179,8 +179,7 @@ class StateEncoder:
                     self.update_vector(web_fingerprint=True)
                     reward = (
                         a.success_reward if Action.webscan_counts == 1 else 0
-                    )  # *math.exp(-Action.webscan_counts)
-
+                    )  
             elif a in Action.All_EXP:
                 action = Exploit(target_info=self.host_info, env_data=env_data, exp=a)
                 result, target_info = action.act()
@@ -189,7 +188,7 @@ class StateEncoder:
                     self.host_info = target_info
                     self.access = "compromised"
                     self.update_vector(access=True)
-                    reward = a.success_reward  # *math.exp(-Action.exp_counts)
+                    reward = a.success_reward  
                 else:
                     cost += Action.action_failed["cost"]
         reward = int(reward - cost)

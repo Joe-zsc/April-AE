@@ -1,8 +1,14 @@
-# APRIL: Autonomous Pentesting framework based on ReInforcement Learning
+# April-AE
 
 ## Introduction
 
-This repository (April-AE) is a subproject of [April](https://github.com/Joe-zsc/April) (comming soon), and is also a simplified implementation of the paper.  In this work, we proposed a novel framework to train pentesting agents that are scalable and transferable in large action spaces.
+This repository is a simplified implementation of the [&#34;APRIL: Towards Scalable and Transferable Autonomous Penetration Testing in Large Action Space via Action Embedding&#34;](https://ieeexplore.ieee.org/document/10804006).  In this work, we proposed a novel framework to train pentesting agents that are scalable and transferable in large action spaces.
+
+## Related Works
+
+[GAP](https://github.com/Joe-zsc/GAP)
+
+[April](https://github.com/Joe-zsc/April) (comming soon)
 
 ## Getting Started
 
