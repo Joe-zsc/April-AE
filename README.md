@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is a simplified implementation of the [&#34;APRIL: Towards Scalable and Transferable Autonomous Penetration Testing in Large Action Space via Action Embedding&#34;](https://ieeexplore.ieee.org/document/10804006).  In this work, we proposed a novel framework to train pentesting agents that are scalable and transferable in large action spaces.
+This repository is a simplified implementation of the paper [&#34;APRIL: Towards Scalable and Transferable Autonomous Penetration Testing in Large Action Space via Action Embedding&#34;](https://ieeexplore.ieee.org/document/10804006).  In this work, we proposed a novel framework to train pentesting agents that are scalable and transferable in large action spaces.
 
 ## Related Works
 
@@ -79,7 +79,6 @@ Please cite our paper at:
   volume={},
   number={},
   pages={1-17},
-  keywords={Training;Reinforcement learning;Testing;Scalability;Planning;Manuals;Semantics;Penetration testing;Network security;Cyberspace;Penetration testing;reinforcement learning;large action space;policy transfer;action embedding},
   doi={10.1109/TDSC.2024.3518500}}
 
 ```
