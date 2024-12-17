@@ -5,18 +5,28 @@ import os
 from pprint import pprint, pformat
 import pandas as pd
 from pathlib import Path
+import torch
+import random
+import numpy as np
 
 
-os.environ["WANDB_BASE_URL"] = "https://api.wandb.ai"
+def set_seed(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+
+
 class Host_info:
     def __init__(self, ip):
         self.ip: str = ip
-        self.os: str = ''
+        self.os: str = ""
         self.port: list = []
-        self.web_fingerprint: str = ''
+        self.web_fingerprint: str = ""
         self.services: list = []
         self.vul: list = []
-        
+
+
 class Action_Class:
     def __init__(
         self,
@@ -34,10 +44,11 @@ class Action_Class:
         self.success_reward = success_reward
         self.config = config
 
-class Configure():
+
+class Configure:
     conf = configparser.ConfigParser()
     try:
-        conf.read(os.path.join(os.path.dirname(__file__),"config.ini"))
+        conf.read(os.path.join(os.path.dirname(__file__), "config.ini"))
     except Exception as e:
         print("config file not found" + e)
 
@@ -50,19 +61,19 @@ class Configure():
         cls.conf.set(label, name, str(value))
         cls.conf.write(open("config.ini", "w"))
 
-class UTIL:
-    '''
-    Running Mode:
-    '''
 
-    current_time = time.strftime('%Y-%m-%d %H:%M:%S',
-                                 time.localtime(time.time()))
+class UTIL:
+
+    current_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
     project_path = Path(__file__).parent
-    Running_title=''
+    current_path = Path.cwd()
+    log_path = project_path / "log"
+    Running_title = ""
+
     @classmethod
     def show_banner(cls):
-        
-        banner = u"""
+
+        banner = """
  
      ___      .______   .______       __   __      
     /   \     |   _  \  |   _  \     |  | |  |     
@@ -73,59 +84,55 @@ class UTIL:
                                                    
 
 """
-        
+
         print(banner)
         cls.show_credit()
-        time.sleep(2)
+        # time.sleep(2)
 
     # flag_log
     @classmethod
     def show_credit(cls):
-        credit = u"""
-+ -- --=[ APRIL\t: Autonomous Penetesting based on ReInforcement Learning             ]=-- -- +
-+ -- --=[ Author\t: HFBOT                                  ]=-- -- +
-+ -- --=[ Website\t: https://gitee.com/JoeSC/April-AE  ]=-- -- +
+        credit = """
++ -- --=[ APRIL\t: Autonomous Penetesting based on ReInforcement Learning ]=-- -- +
++ -- --=[ Website\t: https://github.com/Joe-zsc/April-AE                  ]=-- -- +
     """
         print(credit)
 
-
-
-
-
     @classmethod
-    def line_break(cls, length=60, symbol='-'):
+    def line_break(cls, length=60, symbol="-"):
         line_break = symbol * length
         logging.info(line_break)
-        
-    def write_csv_DictList(file:Path,data:list):
+
+    def write_csv_DictList(file: Path, data: list):
         variables = list(data[0].keys())
-        pd_data = pd.DataFrame([[i[j] for j in variables] for i in data], columns=variables)
-        pd_data.to_csv(file,mode='w',index=False)
+        pd_data = pd.DataFrame(
+            [[i[j] for j in variables] for i in data], columns=variables
+        )
+        pd_data.to_csv(file, mode="w", index=False)
         return pd_data
+
 
 class color:
 
-    PURPLE = '\033[95m'
-    CYAN = '\033[96m'
-    DARKCYAN = '\033[36m'
-    BLUE = '\033[94m'
-    GREEN = '\033[92m'
-    YELLOW = '\033[93m'
-    RED = '\033[91m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-    END = '\033[0m'
+    PURPLE = "\033[95m"
+    CYAN = "\033[96m"
+    DARKCYAN = "\033[36m"
+    BLUE = "\033[94m"
+    GREEN = "\033[92m"
+    YELLOW = "\033[93m"
+    RED = "\033[91m"
+    BOLD = "\033[1m"
+    UNDERLINE = "\033[4m"
+    END = "\033[0m"
 
     @classmethod
-    def print(cls, s, c=GREEN, end='\n'):
+    def print(cls, s, c=GREEN, end="\n"):
         print(c + s + cls.END, end=end)
 
     @classmethod
     def color_str(cls, s, c=GREEN):
         s = pformat(s)
         return c + s + cls.END
-
-
 
 
 def set_logger(log_path):
@@ -168,14 +175,13 @@ def set_logger(log_path):
 
     if not logger.handlers:
         # Logging to a file
-        file_handler = logging.FileHandler(log_path, encoding='utf-8')
+        file_handler = logging.FileHandler(log_path, encoding="utf-8")
         file_handler.setFormatter(
-            logging.Formatter('%(asctime)s:%(levelname)s: %(message)s'))
+            logging.Formatter("%(asctime)s:%(levelname)s: %(message)s")
+        )
         logger.addHandler(file_handler)
 
         # Logging to console
         stream_handler = logging.StreamHandler()
-        stream_handler.setFormatter(logging.Formatter('%(message)s'))
+        stream_handler.setFormatter(logging.Formatter("%(message)s"))
         logger.addHandler(stream_handler)
-
-

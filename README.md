@@ -1,8 +1,12 @@
-# APRIL
+# APRIL: Autonomous Pentesting framework based on ReInforcement Learning
 
-We are in the process of organizing the code, and shall release our codes upon acceptance of our paper, for reproduction of the results.
+## Introduction
 
-## Installation
+This repository (April-AE) is a subproject of [April](https://github.com/Joe-zsc/April) (comming soon), and is also a simplified implementation of the paper.  In this work, we proposed a novel framework to train pentesting agents that are scalable and transferable in large action spaces.
+
+## Getting Started
+
+### Installation
 
 Start by checking out the repository:
 
@@ -12,19 +16,18 @@ cd April-AE
 pip install -r requirment.txt
 ```
 
-## Getting Started
-
 ### Prepare the embedding models
 
-1. Download pre-trained [BERT](https://huggingface.co/models) and [Sentence-BERT](https://huggingface.co/models?library=sentence-transformers) models, or train/finetune your own embedding models using domain corpus.
-2. Store the embedding models in `NLP_Module\Embedding_models`.
-3. Modify the config file `config.ini` and write the model name in the corresponding position.
+In this project, we directly use sentence-bert to represent the raw state information and action descriptions as vectors.
+
+1. Download pre-trained [Sentence-BERT](https://huggingface.co/models?library=sentence-transformers) models, or train/fine-tune your own embedding models using domain corpus. (reference: [TSDAE](https://github.com/UKPLab/sentence-transformers))
+2. Store the embedding models in path  `NLP_Module\Embedding_models`.
+3. Modify the config file `config.ini` and write the model names in the corresponding positions.
 
 ```ini
 [Embedding]
-embedding_models=NLP_Module\Embedding_models
-bert_model = MyPreTrainedBERT ; your bert model name
-sbert_model = all-MiniLM-L12-v2 ; your sentence-bert model name
+embedding_models = NLP_Module\Embedding_models
+sbert_model = MySbertModel ; your sentence-bert model name, e,g., all-MiniLM-L12-v2
 ```
 
 4. You can also change the action space size by modifying the config file `config.ini`.
@@ -35,11 +38,11 @@ sbert_model = all-MiniLM-L12-v2 ; your sentence-bert model name
 actions_file = Action-1000 ;Action-5000 and Action-10000 are also avaiable
 ```
 
-    5. Check the simulated training scenarios in`scenarios` file, which are constructed by pre-probing the virtualized vulnerable hosts.
+5. Check the simulated training scenarios in `scenarios` file, which are constructed by pre-probing the vulnerable hosts in Vulhub.
 
-## Training
+### Training with simulated environments
 
-Run the following commands to run a simulation with our proposed RL agent:
+Run the following commands to run a simulation with April-AE:
 
 ```bash
 python April.py --env_file single\env-CVE-2018-11776.json --agent SAC_AE
@@ -48,7 +51,15 @@ python April.py --env_file single\env-CVE-2018-11776.json --agent SAC_AE
 The learning curves can be seen via the Tensorboard:
 
 ```bash
-tensorboard --logdir runs --host localhost --port 6006
+tensorboard --logdir runs --host localhost --port 6666
 ```
 
+### Training with real vulnerable host
+
+[April](https://github.com/Joe-zsc/April) (comming soon)
+
 ## Citation
+
+**NOTE:** This project is for educational purpose only and the author does not condone any illegal use. Use as your own risk.
+
+Please cite our paper at:

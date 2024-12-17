@@ -5,7 +5,8 @@ import torch
 from pprint import pprint, pformat
 import time
 import torch.nn as nn
-
+import torch.nn.functional as F
+from enum import Enum
 
 
 class RunningMeanStd:
@@ -58,7 +59,39 @@ def orthogonal_init(layer, gain=1.0):
     nn.init.orthogonal_(layer.weight, gain=gain)
     nn.init.constant_(layer.bias, 0)
     
-class RandomProcess(object):
-    def reset_states(self):
-        pass
+class SiameseDistanceMetric(Enum):
+    """
+    The metric for the contrastive loss
+    """
 
+    EUCLIDEAN = lambda x, y: F.pairwise_distance(x, y, p=2)
+    MANHATTAN = lambda x, y: F.pairwise_distance(x, y, p=1)
+    COSINE_DISTANCE = lambda x, y: 1 - F.cosine_similarity(x, y)
+
+
+def CosineDistance(x, y):
+    similarity = np.dot(x, y) / (np.linalg.norm(x) * np.linalg.norm(y))
+    return float(1 - similarity)
+
+
+class ContrastiveLoss(torch.nn.Module):
+    """
+    Contrastive loss function.
+    Based on: http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf
+    """
+
+    def __init__(self, margin=2.0, metric=""):
+        super(ContrastiveLoss, self).__init__()
+        self.margin = margin
+
+    def forward(self, output1, output2, label):
+        label = torch.nn.functional.relu(label, inplace=True)
+
+        # distance = SiameseDistanceMetric.COSINE_DISTANCE(output1, output2)
+        distance = SiameseDistanceMetric.EUCLIDEAN(output1, output2)
+        loss_contrastive = torch.mean(
+            (label) * torch.pow(distance, 2)  # calmp夹断用法
+            + (1 - label) * torch.pow(torch.clamp(self.margin - distance, min=0.0), 2)
+        )
+
+        return loss_contrastive

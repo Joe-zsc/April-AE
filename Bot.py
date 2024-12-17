@@ -1,4 +1,3 @@
-
 import copy
 import platform
 from pprint import pprint, pformat
@@ -9,13 +8,15 @@ from util import Configure, UTIL, color
 from agent import Agent
 from actions.Action import *
 from host import HOST
-
 # tensorboard --logdir runs --host localhost --port 8896
 
 
 class BOT:
     """Deep RL Bot"""
-
+    UTIL.show_banner()
+    UTIL.line_break(length=80, symbol="=")
+    logging.info(UTIL.current_time)
+    UTIL.line_break(length=80, symbol="=")
     def __init__(
         self,
         env_file=None,
@@ -24,14 +25,15 @@ class BOT:
         save=True,
         note="",
         **kwargs,
-    ):
+    ):  
+        
         self.host_name = platform.platform()
         self.env_file = env_file
         self.agent_name = agent
         if config:
-            self.agent = Agent(name=agent, config=config).agent
+            self.agent = Agent(name=agent, config=config)
         else:
-            self.agent = Agent(name=agent).agent
+            self.agent = Agent(name=agent)
         self.base_agent = ""
         self.save_model = save
         self.note = note
@@ -50,9 +52,7 @@ class BOT:
                 train_ip_list.append(ip)
                 vul = host["vulnerability"][0]
                 if vul not in Action.exp_name_set:
-                    logging.error(
-                        f"host vul {vul} is not exploitable"
-                    )  # TODO:整体逻辑需要改进
+                    logging.error(f"host vul {vul} is not exploitable")
                     continue
                 t = HOST(ip, env_data=host)
                 target_list.append(t)
@@ -69,16 +69,13 @@ class BOT:
 
         env = self.make_env(self.env_file)
 
-        config_to_log = copy.deepcopy(self.agent.config.__dict__)
+        config_to_log = copy.deepcopy(self.agent.Policy.config.__dict__)
         config_to_log["Algo"] = self.agent_name
         config_to_log["action_set"] = Action.actions_file_path.name
         config_to_log["env_name"] = self.env_file.stem
         config_to_log["base_agent"] = self.base_agent
 
         config_df = pd.DataFrame.from_dict(config_to_log, orient="index")
-        logging.info(config_df)
         pprint(config_df)
-
         self.agent.train(target_list=env)
-
         print(f"{color.color_str(self.current_time, c=color.GREEN)} training complete.")

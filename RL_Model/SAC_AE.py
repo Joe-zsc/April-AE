@@ -7,71 +7,22 @@ import torch.nn.functional as F
 import logging
 import torch.optim as optim
 import copy
-import time
-from torch.utils.tensorboard import SummaryWriter
 import sys
 import os
-import torch.nn.functional as F
 from torch.distributions import Normal
-from tqdm import tqdm
-from enum import Enum
 curr_path = os.path.dirname(__file__)
 parent_path = os.path.dirname(curr_path)
 sys.path.append(parent_path)  # add current terminal path to sys.path
 sys.path.append(curr_path)  # add current terminal path to sys.path
-from util import color
 from actions.Action import Action
-from host import Host_state, HOST
+from host import StateEncoder
 from config import SAC_Config
-from common import Normalization
-from datetime import datetime
+from common import  ContrastiveLoss
+
 
 """
 SAC version from https://github.com/vwxyzjn/cleanrl
 """
-
-
-def clamp(n, min_, max_):
-    return max(min_, min(n, max_))
-
-
-# pdist = nn.PairwiseDistance(p=2)
-class SiameseDistanceMetric(Enum):
-    """
-    The metric for the contrastive loss
-    """
-
-    EUCLIDEAN = lambda x, y: F.pairwise_distance(x, y, p=2)
-    MANHATTAN = lambda x, y: F.pairwise_distance(x, y, p=1)
-    COSINE_DISTANCE = lambda x, y: 1 - F.cosine_similarity(x, y)
-
-
-def CosineDistance(x, y):
-    similarity = np.dot(x, y) / (np.linalg.norm(x) * np.linalg.norm(y))
-    return float(1 - similarity)
-
-
-class ContrastiveLoss(torch.nn.Module):
-    """
-    Contrastive loss function.
-    Based on: http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf
-    """
-
-    def __init__(self, margin=2.0, metric=""):
-        super(ContrastiveLoss, self).__init__()
-        self.margin = margin
-
-    def forward(self, output1, output2, label):
-        label = torch.nn.functional.relu(label, inplace=True)
-
-        # distance = SiameseDistanceMetric.COSINE_DISTANCE(output1, output2)
-        distance = SiameseDistanceMetric.EUCLIDEAN(output1, output2)
-        loss_contrastive = torch.mean(
-            (label) * torch.pow(distance, 2)  # calmp夹断用法
-            + (1 - label) * torch.pow(torch.clamp(self.margin - distance, min=0.0), 2)
-        )
-
-        return loss_contrastive
 
 
 class ReplayBuffer(object):
@@ -240,19 +191,15 @@ class SingleCritic(nn.Module):  # According to (s,a), directly calculate Q(s,a)
 class SAC_agent:
     # action_embedding = Action_embedding(actions=Action.legal_actions_name, action_path=Action.vul_hub_path)
     def __init__(self, cfg: SAC_Config):
-        self.current_time = datetime.now().strftime("%b%d_%H-%M-%S")
         self.name = "APRIL-AE"
         self.config = cfg
         self.batch_size = self.config.batch_size
-        self.random_steps = self.config.random_step
         self.train_episodes = self.config.train_eps
         self.explore_episode = self.config.explore_eps
         self.gamma = self.config.gamma
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.TAU = self.config.tau  # Softly update the target network
-        self.logger = SummaryWriter()
-        self.state_dim = Host_state.state_space
-        self.num_actions = len(Action.legal_actions_name)
+        self.state_dim = StateEncoder.state_space
         self.k_nearest_neighbors = self.config.k_nearest_neighbors
         self.action_embedding = Action.action_embedding
         self.action_dim = self.action_embedding.action_dim
@@ -322,25 +269,6 @@ class SAC_agent:
             action_dim=self.action_dim,
             memory_size=self.memory_size,
         )
-
-        self.loss = 0
-        self.num_episodes = 0
-        self.training_step = 0
-        self.total_steps = 0
-        self.step_limit = self.config.step_limit
-        self.eval_step_limit = self.config.eval_step_limit
-        self.action_set = []
-        self.total_action_set = set()
-        self.reward_set = []
-        self.best_return = -float("inf")
-        self.best_action_set = []
-        self.best_episode = 0
-        self.best_reward_episode = []
-        self.eval_rewards = 0
-        self.eval_success_rate = 0.0
-        self.use_state_norm = self.config.use_state_norm
-        if self.use_state_norm:
-            self.state_norm = Normalization(shape=self.state_dim)
         self.explore_eps = self.config.explore_eps
         self.epsilon_schedule = np.linspace(1.0, 0.0, self.explore_eps)
         self.ucb_lamba = self.config.ucb_lamba
@@ -353,22 +281,46 @@ class SAC_agent:
             "UCB",
             "Greedy",
         ], "action_refinement methdo must be Random/UCB/Greedy"
+        
+    def select_action(self,observation,explore,is_loaded_agent,num_episode):
+        if explore:
 
-    def select_action(self, s):
+            if is_loaded_agent:
+                proto_action = self.generate_proto_action(observation)
+            else:
+                proto_action = self.random_action()
+        else:
+            proto_action = self.generate_proto_action(observation)
+        
+        raw_wolp_action, action_index = self.action_refinement(
+                    num_episode=num_episode, proto_action=proto_action, state=observation)
+
+        return action_index, raw_wolp_action, proto_action
+    
+    def store_transtion(self, observation, action, reward, next_observation, done):
+
+        self.memory.store(
+            observation, action[1], action[2], reward, next_observation, done
+        )
+    def update_policy(self, num_episode, train_steps):
+
+        self.update(num_episode, train_steps)
+        
+    def generate_proto_action(self, s):
         s = torch.unsqueeze(torch.tensor(s, dtype=torch.float), 0).to(self.device)
         a, _, _ = self.actor.get_action(
             s
         )  # When choosing actions, we do not need to compute log_pi
-        probe_action = a.cpu().detach().numpy().flatten()
+        proto_action = a.cpu().detach().numpy().flatten()
 
-        return probe_action
+        return proto_action
 
-    def get_epsilon(self):
-        if self.num_episodes < self.explore_eps and not self.is_loaded_agent:
-            return self.epsilon_schedule[self.num_episodes]
+    def get_epsilon(self,num_episode):
+        if num_episode>=0 and num_episode < self.config.explore_eps and not self.is_loaded_agent:
+            return self.epsilon_schedule[num_episode]
         return 0.0
 
-    def action_refinement(self, proto_action, state, k_nearest_neighbors=None):
+    def action_refinement(self,num_episode, proto_action, state, k_nearest_neighbors=None):
 
         # nor_probe_action=probe_action /  np.linalg.norm(probe_action, axis=0, keepdims=True)
         if not k_nearest_neighbors:
@@ -384,7 +336,7 @@ class SAC_agent:
         if not isinstance(s_t, np.ndarray):
             s_t = state.cpu().data.numpy()
         if k_nearest_neighbors > 1:
-            eps = self.get_epsilon()
+            eps = self.get_epsilon(num_episode)
             if random.random() <= eps or self.action_refinement_method == "Random":
                 index = random.randint(0, k_nearest_neighbors - 1)
                 max_index = np.array([index])
@@ -450,8 +402,11 @@ class SAC_agent:
         _, _, mean = self.actor.get_action(
             s
         )  # When choosing actions, we do not need to compute log_pi
-        action = mean.cpu().detach().numpy().flatten()
-        return action
+        proto_action = mean.cpu().detach().numpy().flatten()
+        wolp_action, action_index = self.action_refinement(
+            num_episode=-1, proto_action=proto_action, state=observation
+        )
+        return action_index
 
     def random_action(self):
 
@@ -459,7 +414,7 @@ class SAC_agent:
         action = self.action_embedding.vector_space[action_id]
         return action
 
-    def update(self):
+    def update(self,num_episode, train_steps):
         batch_s, batch_a, batch_p_a, batch_r, batch_s_, batch_dw = self.memory.sample(
             self.batch_size
         )  # Sample a batch
@@ -493,7 +448,7 @@ class SAC_agent:
             nn.utils.clip_grad_norm_(self.critic_2.parameters(), 0.5)
         self.critic_optimizer.step()
 
-        if self.training_step % self.policy_frequency == 0:
+        if train_steps % self.policy_frequency == 0:
             for _ in range(
                 self.policy_frequency
             ):  # compensate for the delay by doing 'actor_update_interval' instead of 1
@@ -533,7 +488,7 @@ class SAC_agent:
                     self.alpha_optimizer.step()
                     self.alpha = self.log_alpha.exp()
 
-        if self.training_step % self.target_network_frequency == 0:
+        if train_steps % self.target_network_frequency == 0:
             # Softly update target networks
             for param, target_param in zip(
                 self.critic_1.parameters(), self.critic_target_1.parameters()
@@ -549,28 +504,17 @@ class SAC_agent:
                 )
 
     def save(self, path):
-        if self.use_state_norm:
-            mean = self.state_norm.running_ms.mean
-            std = self.state_norm.running_ms.std
-            mean_checkpoint = os.path.join(path, f"{self.name}-norm_mean.pt")
-            std_checkpoint = os.path.join(path, f"{self.name}-norm_std.pt")
-            torch.save(mean, mean_checkpoint)
-            torch.save(std, std_checkpoint)
+    
         actor_checkpoint = os.path.join(path, f"{self.name}-actor.pt")
         critic_checkpoint_1 = os.path.join(path, f"{self.name}-critic_1.pt")
         critic_checkpoint_2 = os.path.join(path, f"{self.name}-critic_2.pt")
+        
         torch.save(self.actor.state_dict(), actor_checkpoint)
         torch.save(self.critic_1.state_dict(), critic_checkpoint_1)
         torch.save(self.critic_2.state_dict(), critic_checkpoint_2)
 
     def load(self, path):
-        if self.use_state_norm:
-            mean_checkpoint = os.path.join(path, f"{self.name}-norm_mean.pt")
-            std_checkpoint = os.path.join(path, f"{self.name}-norm_std.pt")
-            mean = torch.load(mean_checkpoint)
-            std = torch.load(std_checkpoint)
-            self.state_norm.running_ms.mean = mean
-            self.state_norm.running_ms.std = std
+        
         actor_checkpoint = os.path.join(path, f"{self.name}-actor.pt")
         critic_checkpoint_1 = os.path.join(path, f"{self.name}-critic_1.pt")
         critic_checkpoint_2 = os.path.join(path, f"{self.name}-critic_2.pt")
@@ -580,149 +524,10 @@ class SAC_agent:
             self.critic_2.load_state_dict(torch.load(critic_checkpoint_2))
         else:
             self.actor.load_state_dict(
-                torch.load(actor_checkpoint, map_location=torch.device("cpu"))
-            )
+                torch.load(actor_checkpoint, map_location=torch.device('cpu')))
             self.critic_1.load_state_dict(
-                torch.load(critic_checkpoint_1, map_location=torch.device("cpu"))
-            )
+                torch.load(critic_checkpoint_1,
+                           map_location=torch.device('cpu')))
             self.critic_2.load_state_dict(
-                torch.load(critic_checkpoint_2, map_location=torch.device("cpu"))
-            )
-        self.is_loaded_agent = True
-
-    def train(self, target_list, eval_freq=5):
-        start = time.time()
-        self.num_episodes = 1
-        """
-        explore stage: prepare transitions
-        """
-        with tqdm(
-            range(self.explore_eps), desc=color.color_str("Exploring", c=color.RED)
-        ) as tbar:
-            for _ in tbar:
-                ep_results = self.run_train_episode(target_list, explore=True)
-                ep_return, ep_steps, success_rate = ep_results
-                tbar.set_postfix(
-                    ep_return=color.color_str(f"{ep_return}", c=color.PURPLE),
-                    ep_steps=color.color_str(f"{ep_steps}", c=color.GREEN),
-                )
-        """
-        exploit stage: train policy
-        
-        """
-        with tqdm(
-            range(self.train_episodes),
-            desc=f"{color.color_str('Training',c=color.RED)}",
-        ) as tbar:
-            for _ in tbar:
-                start = time.time()
-                ep_results = self.run_train_episode(target_list)
-                end = time.time()
-                run_time = float(end - start)
-
-                ep_return, ep_steps, success_rate = ep_results
-                self.logger.add_scalar("return-episode", ep_return, self.num_episodes)
-                self.logger.add_scalar(
-                    "episode-steps-episode", ep_steps, self.num_episodes
-                )
-                self.num_episodes += 1
-
-                tbar.set_postfix(
-                    reward=color.color_str(
-                        f"{ep_return}/{self.best_return}", c=color.PURPLE
-                    ),
-                    step=color.color_str(f"{ep_steps}", c=color.GREEN),
-                    SR=color.color_str(f"{success_rate*100}%", c=color.YELLOW),
-                )
-
-        end = time.time()
-        run_time = round(end - start)
-        run_time = time.strftime("%H:%M:%S", time.gmtime(run_time))
-        logging.info("Training complete")
-        logging.info("training time = " + run_time)
-
-        self.logger.close()
-        # for a in self.best_action_set:
-        #     action = Action.get_action(a)
-        #     color.print(f"[{action}]", end=" --> ")
-        # print(self.best_action_set)
-        # print(self.best_reward_episode)
-
-    def run_train_episode(self, target_list, explore=False):
-
-        steps = 0
-        episode_return = 0
-        self.action_set = []
-        self.action_set_str = []
-        self.action_set_vectors = []
-        self.reward_set = []
-        success_num = 0
-        failed_num = 0
-        target_id = 0
-
-        random.shuffle(target_list)
-        # target_list.reverse()
-        while target_id < len(target_list):
-            done = 0
-            target_step = 0
-            target: HOST = target_list[target_id]
-            o = target.reset()
-            if self.use_state_norm:
-                # o = self.state_norm(o, update=not (self.is_loaded_agent and explore))
-                o = self.state_norm(o)
-            while not done and target_step < self.step_limit:
-                if explore:
-
-                    if self.is_loaded_agent:
-                        proto_action = self.select_action(o)
-                    else:
-                        proto_action = self.random_action()
-                else:
-                    proto_action = self.select_action(o)
-                self.action_set_vectors.append(proto_action)
-                raw_wolp_action, action_index = self.action_refinement(
-                    proto_action=proto_action, state=o
-                )
-
-                self.total_steps += 1
-                self.action_set.append(action_index)
-                self.action_set_str.append(Action.get_action(action_index))
-                if 0 in self.action_set or action_index == 0:
-                    self.total_action_set.add(action_index)
-                next_o, r, done, result = target.perform_action(action_index)
-                action_to_strore = raw_wolp_action
-                if done:
-                    success_num += 1
-                    dw = True
-                else:
-                    dw = False
-                if self.use_state_norm:
-                    next_o = self.state_norm(next_o)
-
-                self.memory.store(o, action_to_strore, proto_action, r, next_o, dw)
-                self.reward_set.append(r)
-                o = next_o.astype(np.float32)
-                steps += 1
-                target_step += 1
-                if not explore:
-                    self.training_step += 1
-                    self.update()
-                episode_return += r
-
-            # if done:
-            if not done:
-                failed_num += 1
-                if not explore:
-                    break
-            target_id += 1
-            # if steps >= self.max_steps:
-            #     break
-        sucess_rate = float(format(success_num / len(target_list), ".3f"))
-
-        if episode_return >= self.best_return:
-            self.best_return = episode_return
-            self.best_action_set = self.action_set
-            self.best_reward_episode = self.reward_set
-            self.best_episode = self.num_episodes
-
-        return episode_return, steps, sucess_rate
+                torch.load(critic_checkpoint_2,
+                           map_location=torch.device('cpu')))
