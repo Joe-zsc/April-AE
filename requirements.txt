@@ -1,7 +1,7 @@
 annoy==1.17.3
-numpy==2.2.0
+numpy==1.19.5
 pandas==2.2.3
 scikit_learn==1.4.1.post1
 sentence_transformers==2.5.1
-torch==2.2.1
+torch==2.5.1
 tqdm==4.66.2

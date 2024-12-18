@@ -19,7 +19,7 @@ Start by checking out the repository:
 ```bash
 git clone https://github.com/Joe-zsc/April-AE.git
 cd April-AE
-pip install -r requirment.txt
+pip install -r requirments.txt
 ```
 
 ### Prepare the embedding models
