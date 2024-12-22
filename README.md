@@ -51,7 +51,7 @@ actions_file = Action-1000 ;Action-5000 and Action-10000 are also avaiable
 Run the following commands to run a simulation with April-AE:
 
 ```bash
-python April.py --env_file single\env-CVE-2018-11776.json --agent SAC_AE
+python April.py --env_file single\env-CVE-2018-11776.json --agent April-AE
 ```
 
 The learning curves can be seen via the Tensorboard:

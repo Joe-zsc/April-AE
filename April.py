@@ -1,6 +1,8 @@
 import os
 import sys
 
+# tensorboard --logdir runs --host localhost --port 6666
+
 curr_path = os.path.dirname(__file__)
 parent_path = os.path.dirname(curr_path)
 sys.path.append(curr_path)
@@ -16,7 +18,7 @@ if __name__ == "__main__":
         default=r"single\env-CVE-2017-10271.json",
         help=r"training data set, e.g. single\env-CVE-2019-9193.json",
     )
-    parser.add_argument("--agent", default="SAC_AE")
+    parser.add_argument("--agent", default="April-AE")
     parser.add_argument("--seed", type=int, default=0)
     # parser.add_argument("--new", type=bool, default=False, help="gpu id")
     parser.add_argument("--gpu", type=str, default="0", help="gpu id")

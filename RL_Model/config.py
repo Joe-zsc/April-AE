@@ -1,5 +1,6 @@
 
-class SAC_Config:
+class April_AE_Config:
+    #SAC version
     def __init__(self):
         self.train_eps = 500  # max training episodes
         self.step_limit = 100
@@ -7,7 +8,7 @@ class SAC_Config:
         self.batch_size = 2048
         # self.memory_size = 1e5
         self.memory_size = self.train_eps * self.step_limit
-        self.gamma = 0.99
+        self.gamma = 0.9
         self.actor_lr = 1e-4
         self.critic_lr = 1e-4
         self.lr_alpha = 5e-5

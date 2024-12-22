@@ -16,7 +16,7 @@ sys.path.append(parent_path)  # add current terminal path to sys.path
 sys.path.append(curr_path)  # add current terminal path to sys.path
 from actions.Action import Action
 from host import StateEncoder
-from config import SAC_Config
+from config import April_AE_Config
 from common import  ContrastiveLoss
 
 
@@ -188,10 +188,10 @@ class SingleCritic(nn.Module):  # According to (s,a), directly calculate Q(s,a)
         return q1
 
 
-class SAC_agent:
-    # action_embedding = Action_embedding(actions=Action.legal_actions_name, action_path=Action.vul_hub_path)
-    def __init__(self, cfg: SAC_Config):
-        self.name = "APRIL-AE"
+class April_AE:
+    #SAC version
+    def __init__(self, cfg: April_AE_Config):
+        self.name = "April-AE"
         self.config = cfg
         self.batch_size = self.config.batch_size
         self.train_episodes = self.config.train_eps

@@ -1,5 +1,5 @@
 import os
-from RL_Model.config import SAC_Config
+from RL_Model.config import April_AE_Config
 from host import StateEncoder, HOST
 from RL_Model.common import Normalization
 from util import color
@@ -18,12 +18,12 @@ class Agent:
         self.name = name
         self.config = config
 
-        if self.name == "SAC_AE":
-            from RL_Model.SAC_AE import SAC_agent
+        if self.name == "April-AE":
+            from RL_Model.April_AE import April_AE
 
             if not self.config:
-                self.config = SAC_Config()
-            self.Policy = SAC_agent(cfg=self.config)
+                self.config = April_AE_Config()
+            self.Policy = April_AE(cfg=self.config)
 
         else:
             self.Policy = None
@@ -47,10 +47,10 @@ class Agent:
         self.last_episode_reward = -float("inf")
         self.first_hit_step = -1
         self.logger = SummaryWriter()
-        print(f"--Running {name} agent--")
+        print(f"--Running {self.Policy.name} agent--")
 
     def train(self, target_list, eval_freq=5):
-        start = time.time()
+        train_start = time.time()
         self.num_episodes = 1
         """
         explore stage: prepare transitions
@@ -95,8 +95,8 @@ class Agent:
                     SR=color.color_str(f"{success_rate*100}%", c=color.YELLOW),
                 )
 
-        end = time.time()
-        run_time = round(end - start)
+        train_end = time.time()
+        run_time = round(train_end - train_start)
         run_time = time.strftime("%H:%M:%S", time.gmtime(run_time))
         logging.info("Training complete")
         logging.info("training time = " + run_time)

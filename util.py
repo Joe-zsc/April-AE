@@ -93,8 +93,8 @@ class UTIL:
     @classmethod
     def show_credit(cls):
         credit = """
-+ -- --=[ APRIL\t: Autonomous Penetesting based on ReInforcement Learning ]=-- -- +
-+ -- --=[ Website\t: https://github.com/Joe-zsc/April-AE                  ]=-- -- +
++ -- --=[ APRIL: Autonomous Penetesting based on ReInforcement Learning ]=-- -- +
++ -- --=[ Code : https://github.com/Joe-zsc/April-AE                    ]=-- -- +
     """
         print(credit)
 
