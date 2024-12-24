@@ -247,7 +247,7 @@ class Action:
     ]
     assert len(All_EXP) == len(
         set(All_EXP)
-    ), f"{All_EXP-set(All_EXP)}"  # 检查vul set是否有重复元素
+    ), f"{All_EXP-set(All_EXP)}"
     PORT_SCAN = Action_Class(
         id=-1, name="Port Scan", act_cost=0, success_reward=0, type="Scan"
     )
@@ -274,15 +274,11 @@ class Action:
             actions=legal_actions_name, action_path=actions_file_path
         )
     # types of errors
-    # 1 重复动作执行
-    action_repetition = dict(cost=10, message="action_repetition")
+    action_repetition = dict(cost=20, message="action_repetition")
 
-    # 2 前置动作未执行，信息依赖
-    action_dependence = dict(cost=10, message="action_dependence")
+    action_dependence = dict(cost=20, message="action_dependence")
 
-    # 3 动作执行失败
     action_failed = dict(cost=10, message="action_failed")
-    # Embedding = Action_embedding()
 
     def __init__(self):
         self.history_set = set()

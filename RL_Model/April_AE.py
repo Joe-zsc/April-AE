@@ -9,7 +9,9 @@ import torch.optim as optim
 import copy
 import sys
 import os
+import math
 from torch.distributions import Normal
+
 curr_path = os.path.dirname(__file__)
 parent_path = os.path.dirname(curr_path)
 sys.path.append(parent_path)  # add current terminal path to sys.path
@@ -17,7 +19,7 @@ sys.path.append(curr_path)  # add current terminal path to sys.path
 from actions.Action import Action
 from host import StateEncoder
 from config import April_AE_Config
-from common import  ContrastiveLoss
+from common import ContrastiveLoss
 
 
 """
@@ -189,7 +191,7 @@ class SingleCritic(nn.Module):  # According to (s,a), directly calculate Q(s,a)
 
 
 class April_AE:
-    #SAC version
+    # SAC version
     def __init__(self, cfg: April_AE_Config):
         self.name = "April-AE"
         self.config = cfg
@@ -243,7 +245,7 @@ class April_AE:
         self.adaptive_alpha = self.config.adaptive_alpha
         if self.adaptive_alpha:
             # Target Entropy = −dim(A) (e.g. , -6 for HalfCheetah-v2) as given in the paper
-            self.target_entropy = self.config.target_entropy
+            self.target_entropy = -self.action_dim
             # self.config.target_entropy=self.target_entropy
             # We learn log_alpha instead of alpha to ensure that alpha=exp(log_alpha)>0
             self.log_alpha = torch.zeros(1, requires_grad=True)
@@ -270,8 +272,11 @@ class April_AE:
             memory_size=self.memory_size,
         )
         self.explore_eps = self.config.explore_eps
-        self.epsilon_schedule = np.linspace(1.0, 0.0, self.explore_eps)
-        self.ucb_lamba = self.config.ucb_lamba
+        self.epsilon_schedule = np.linspace(0, 0.0, self.explore_eps)
+        self.ucb_lamba = 0.5 * math.log(len(Action.legal_actions_name), 10)
+        self.ucb_lamba_schedule = np.linspace(
+            self.ucb_lamba, self.ucb_lamba, self.train_episodes
+        )
         self.is_loaded_agent = False
         self.policy_frequency = 1
         self.target_network_frequency = 1
@@ -281,8 +286,8 @@ class April_AE:
             "UCB",
             "Greedy",
         ], "action_refinement methdo must be Random/UCB/Greedy"
-        
-    def select_action(self,observation,explore,is_loaded_agent,num_episode):
+
+    def select_action(self, observation, explore, is_loaded_agent, num_episode):
         if explore:
 
             if is_loaded_agent:
@@ -291,21 +296,23 @@ class April_AE:
                 proto_action = self.random_action()
         else:
             proto_action = self.generate_proto_action(observation)
-        
+
         raw_wolp_action, action_index = self.action_refinement(
-                    num_episode=num_episode, proto_action=proto_action, state=observation)
+            num_episode=num_episode, proto_action=proto_action, state=observation
+        )
 
         return action_index, raw_wolp_action, proto_action
-    
+
     def store_transtion(self, observation, action, reward, next_observation, done):
 
         self.memory.store(
             observation, action[1], action[2], reward, next_observation, done
         )
+
     def update_policy(self, num_episode, train_steps):
 
         self.update(num_episode, train_steps)
-        
+
     def generate_proto_action(self, s):
         s = torch.unsqueeze(torch.tensor(s, dtype=torch.float), 0).to(self.device)
         a, _, _ = self.actor.get_action(
@@ -315,12 +322,18 @@ class April_AE:
 
         return proto_action
 
-    def get_epsilon(self,num_episode):
-        if num_episode>=0 and num_episode < self.config.explore_eps and not self.is_loaded_agent:
+    def get_epsilon(self, num_episode):
+        if (
+            num_episode >= 0
+            and num_episode < self.config.explore_eps
+            and not self.is_loaded_agent
+        ):
             return self.epsilon_schedule[num_episode]
         return 0.0
 
-    def action_refinement(self,num_episode, proto_action, state, k_nearest_neighbors=None):
+    def action_refinement(
+        self, num_episode, proto_action, state, k_nearest_neighbors=None
+    ):
 
         # nor_probe_action=probe_action /  np.linalg.norm(probe_action, axis=0, keepdims=True)
         if not k_nearest_neighbors:
@@ -336,8 +349,8 @@ class April_AE:
         if not isinstance(s_t, np.ndarray):
             s_t = state.cpu().data.numpy()
         if k_nearest_neighbors > 1:
-            eps = self.get_epsilon(num_episode)
-            if random.random() <= eps or self.action_refinement_method == "Random":
+
+            if self.action_refinement_method == "Random":
                 index = random.randint(0, k_nearest_neighbors - 1)
                 max_index = np.array([index])
             else:
@@ -360,7 +373,7 @@ class April_AE:
                 else:  # self.action_refinement=="UCB":
                     var = np.sqrt(0.5 * ((Q1 - mean) ** 2 + (Q2 - mean) ** 2))
                     # var_2 = np.sqrt(0.25 * ((Q1 - mean_2)**2 + (Q2 - mean_2)**2+(Q3 - mean_2)**2+(Q4 - mean_2)**2))
-                    score = mean + self.ucb_lamba * var
+                    score = mean + self.ucb_lamba_schedule[num_episode] * var
                     # score_2 = mean_2 + self.ucb_lamba * var_2
                 # evaluate each pair through the critic
                 # target_Q1, target_Q2 = self.critic(s_t, raw_actions)
@@ -414,7 +427,7 @@ class April_AE:
         action = self.action_embedding.vector_space[action_id]
         return action
 
-    def update(self,num_episode, train_steps):
+    def update(self, num_episode, train_steps):
         batch_s, batch_a, batch_p_a, batch_r, batch_s_, batch_dw = self.memory.sample(
             self.batch_size
         )  # Sample a batch
@@ -504,17 +517,17 @@ class April_AE:
                 )
 
     def save(self, path):
-    
+
         actor_checkpoint = os.path.join(path, f"{self.name}-actor.pt")
         critic_checkpoint_1 = os.path.join(path, f"{self.name}-critic_1.pt")
         critic_checkpoint_2 = os.path.join(path, f"{self.name}-critic_2.pt")
-        
+
         torch.save(self.actor.state_dict(), actor_checkpoint)
         torch.save(self.critic_1.state_dict(), critic_checkpoint_1)
         torch.save(self.critic_2.state_dict(), critic_checkpoint_2)
 
     def load(self, path):
-        
+
         actor_checkpoint = os.path.join(path, f"{self.name}-actor.pt")
         critic_checkpoint_1 = os.path.join(path, f"{self.name}-critic_1.pt")
         critic_checkpoint_2 = os.path.join(path, f"{self.name}-critic_2.pt")
@@ -524,10 +537,11 @@ class April_AE:
             self.critic_2.load_state_dict(torch.load(critic_checkpoint_2))
         else:
             self.actor.load_state_dict(
-                torch.load(actor_checkpoint, map_location=torch.device('cpu')))
+                torch.load(actor_checkpoint, map_location=torch.device("cpu"))
+            )
             self.critic_1.load_state_dict(
-                torch.load(critic_checkpoint_1,
-                           map_location=torch.device('cpu')))
+                torch.load(critic_checkpoint_1, map_location=torch.device("cpu"))
+            )
             self.critic_2.load_state_dict(
-                torch.load(critic_checkpoint_2,
-                           map_location=torch.device('cpu')))
+                torch.load(critic_checkpoint_2, map_location=torch.device("cpu"))
+            )

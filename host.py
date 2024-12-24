@@ -131,7 +131,7 @@ class StateEncoder:
         if action_constraint:
             cost = action_constraint["cost"]
             result = action_constraint["message"]
-            reward = reward - cost
+            # reward = reward - cost
         else:
 
             Action.history_set.add(a.id)

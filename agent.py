@@ -51,7 +51,7 @@ class Agent:
 
     def train(self, target_list, eval_freq=5):
         train_start = time.time()
-        self.num_episodes = 1
+        self.num_episodes = 0
         """
         explore stage: prepare transitions
         """
